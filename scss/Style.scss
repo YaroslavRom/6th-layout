@@ -1,0 +1,69 @@
+@import "style-reset";
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/nav';
+@import '../node_modules/bootstrap/scss/navbar';
+@import '../node_modules/bootstrap/scss/utilities';
+@import '../node_modules/bootstrap/scss/button-group';
+@import '../node_modules/bootstrap/scss/buttons';
+@import "header";
+@import "upper-body-till-slider";
+@import "slider-and-prising";
+@import "contact-us-and-footer";
+@import "adaptation";
+@font-face {
+  font-family: 'SourceSansPro';
+  font-weight: 700;
+  src: url('../fonts/SourceSansPro-Bold.ttf') format("opentype"); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansPro-Bold.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  font-weight: 600;
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("opentype"); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  font-weight: 400;
+  src: url('../fonts/SourceSansPro-Regular.ttf') format("opentype"); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansPro-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  font-weight: 300;
+  src: url('../fonts/SourceSansPro-Light.ttf') format("opentype"); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansPro-Light.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style: italic;
+  src: url('../fonts/SourceSansPro-Italic.ttf') format("opentype"); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansPro-Italic.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  src: url('../fonts/Quicksand-Bold.ttf') format("opentype"); /* IE9 Compat Modes */
+  src: url('../fonts/Quicksand-Bold.ttf') format("truetype");
+}
+body{
+  font-family: SourceSansPro;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+  img{
+    z-index: 8;
+  }
+}
+*{
+  z-index: 10;
+}
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
