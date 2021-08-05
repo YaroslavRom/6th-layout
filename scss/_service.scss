@@ -1,0 +1,59 @@
+@import "mixins";
+.green-color-container{
+  @include background-color-container(#17c2a4,748px);
+}
+.lil-center-heading{
+  @include heading-slash-paragraph(#ffffff,#000000,#ffffff);
+  margin: 0 auto;
+}
+.flag{
+  display: flex;
+  flex-direction: column;
+}
+.item-title{
+  @include variable-txt-color(24px,18px,700,0.029em,#ffffff);
+  margin: 0 0 23px -11px;
+}
+.service-one-item{
+  text-align: center;
+  max-width: 199px;
+}
+.lil-description-items{
+  max-width: 1440px;
+}
+.lorem-paragraph{
+  @include variable-txt-color(16px,24px,300,0.01em,#ffffff);
+  margin: 19px 9px 0 -3px;
+}
+.pencil{
+  height: 130px;
+  width: 90px;
+  margin: 0 auto 59px auto;
+}
+.setting{
+  width: 160px;
+  height: 125px;
+  margin: 0 auto 60px auto;
+}
+.rocket{
+  height: 136px;
+  width: 97px;
+  margin: 0 auto 55px auto;
+}
+.red-flag {
+  height: 122px;
+  width: 125px;
+  margin: 0 auto 63px auto;
+}
+.service-first-item{
+  margin: 81px 0 0 71px;
+}
+.service-second-item{
+  margin: 77px 0 0 51px;
+}
+.service-third-item{
+  margin: 81px 0 0 42px;
+}
+.service-fourth-item{
+  margin: 75px 0 0 51px;
+}

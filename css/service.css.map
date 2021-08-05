@@ -1,1 +1,0 @@
-{"version":3,"sources":["service.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA","file":"service.css","sourcesContent":[".purple-color-container{\n  background-color: #17c2a4;\n  width: 100%;\n  height: 748px;\n}"]}

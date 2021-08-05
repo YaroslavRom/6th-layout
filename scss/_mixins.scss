@@ -1,8 +1,8 @@
-//@mixin standart-txt($font) {
-//  font-weight: $font;
-//  font-size: 16px;
-//  color: #ffffff;
-//}
+@mixin background-color-container($color,$height) {
+background-color: $color;
+  height: $height;
+  width: 100%;
+}
 @mixin variable-txt-color($font-size,$line-height,$font-weight,$letter-spacing,$coloring) {
   font-size: $font-size;
   line-height: $line-height;
@@ -11,7 +11,7 @@
   color: $coloring;
 }
 
-@mixin heading-slash-paragraph {
+@mixin heading-slash-paragraph($tittle-color,$slash-color,$p-color) {
   display: flex;
   flex-direction: column;
   max-width: 630px;
@@ -23,14 +23,14 @@
     line-height: 29px;
     font-weight: 700;
     letter-spacing: 0.1em;
-    color: #ffffff;
+    color: $tittle-color;
     margin: 119px 0 22px 3px;
   }
   .lil-slash{
     width: 87px;
     height: 4px;
     opacity: 0.14;
-    background-color: #000000;
+    background-color: $slash-color;
     margin: 0 auto 18px auto;
   }
   .lil-paragraph{
@@ -38,7 +38,7 @@
     line-height: 26px;
     font-weight: 400;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: $p-color;
     padding: 0 0 0 11px;
   }
 }

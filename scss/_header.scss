@@ -1,8 +1,6 @@
 @import '_mixins';
-.color-container{
-  width: 100%;
-  background-color: #87509c;
-  height: 595px;
+.purple-color-container{
+  @include background-color-container(#87509c,596px);
 }
 .container{
   height: auto;

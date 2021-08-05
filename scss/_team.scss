@@ -1,0 +1,7 @@
+@import "mixins";
+.gray-container{
+@include background-color-container(#e7f1f8,914px);
+}
+.second-lil{
+  @include heading-slash-paragraph(#3c4761,#000000,#3c4761)
+}
