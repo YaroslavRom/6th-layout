@@ -1,0 +1,6 @@
+.third-lil{
+  @include heading-slash-paragraph(#3c4761,#000000,#3c4761)
+}
+.skill-name{
+  @include variable-txt-color(24px,18px,700,0.2em,#3c4761);
+}

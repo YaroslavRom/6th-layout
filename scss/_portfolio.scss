@@ -1,0 +1,10 @@
+@import "mixins";
+.fourth-lil{
+  @include heading-slash-paragraph(#393939,#000000, #393939)
+}
+.human-color-container{
+  @include background-color-container(#ffdd99,1423px);
+}
+.load-projects-botton{
+  @include button(#17c2a4,#14a58c);
+}

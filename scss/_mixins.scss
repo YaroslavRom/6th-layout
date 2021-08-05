@@ -1,5 +1,5 @@
 @mixin background-color-container($color,$height) {
-background-color: $color;
+  background-color: $color;
   height: $height;
   width: 100%;
 }
@@ -45,4 +45,16 @@ background-color: $color;
 @mixin custom-images($width,$height){
   width: $width;
   height: $height;
+}
+@mixin button ($button-color, $border-color){
+  @include variable-txt-color(18px,26px,600,0.2em,#ffffff);
+  margin: 0 auto;
+  width: 293px;
+  height: 65px;
+  background-color: $button-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-bottom: 4px solid $border-color;
 }

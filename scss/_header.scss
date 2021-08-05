@@ -62,15 +62,7 @@ nav{
   margin: 0 auto;
 }
 .work-invite-button{
-  margin: 0 auto;
-  width: 293px;
-  height: 65px;
-  background-color: #eb7d4b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  border-bottom: 4px solid #c86a40;
+  @include button( #eb7d4b,#c86a40);
 }
 .work-with-us{
   @include variable-txt-color(18px,26px,600,0.019em,#ffffff);
