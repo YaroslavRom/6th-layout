@@ -42,3 +42,7 @@ background-color: $color;
     padding: 0 0 0 11px;
   }
 }
+@mixin custom-images($width,$height){
+  width: $width;
+  height: $height;
+}

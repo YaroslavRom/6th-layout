@@ -5291,9 +5291,9 @@ nav .menu-item5-spacing {
   margin: 75px 0 0 51px;
 }
 
-.gray-container {
+.gray-color-container {
   background-color: #e7f1f8;
-  height: 914px;
+  height: 913px;
   width: 100%;
 }
 
@@ -5325,6 +5325,42 @@ nav .menu-item5-spacing {
   letter-spacing: 0.03em;
   color: #3c4761;
   padding: 0 0 0 11px;
+}
+
+.social-media-img {
+  width: 32px;
+  height: 32px;
+}
+
+.work-tittle {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #30bae7;
+}
+
+.staff {
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #27283d;
+}
+
+.staff-description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: #3c4761;
+}
+
+.staff-photo {
+  width: 200px;
+  height: 200px;
+  background-color: #878787;
+  border-radius: 50%;
 }
 
 @font-face {

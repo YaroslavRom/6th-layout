@@ -1,7 +1,25 @@
 @import "mixins";
-.gray-container{
-@include background-color-container(#e7f1f8,914px);
+
+.gray-color-container{
+@include background-color-container(#e7f1f8,913px);
 }
 .second-lil{
   @include heading-slash-paragraph(#3c4761,#000000,#3c4761)
+}
+.social-media-img{
+  @include custom-images(32px,32px);
+}
+.work-tittle{
+  @include variable-txt-color(16px,18px,400,0.02em,#30bae7)
+}
+.staff{
+  @include variable-txt-color(24px,18px,700,0.02em,#27283d);
+}
+.staff-description{
+  @include variable-txt-color(16px,24px,300,0.2em,#3c4761)
+}
+.staff-photo{
+  @include custom-images(200px,200px);
+  background-color: #878787;
+  border-radius: 50%;
 }
