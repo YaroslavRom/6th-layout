@@ -12,27 +12,33 @@
 }
 
 @mixin heading-slash-paragraph {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  max-width: 630px;
+  text-align: center;
+  .lil-fixing{
+  }
   .lil-tittle{
     font-size: 40px;
     line-height: 29px;
     font-weight: 700;
     letter-spacing: 0.1em;
     color: #ffffff;
+    margin: 119px 0 22px 3px;
   }
-   .lil-slash{
-     width: 87px;
-     height: 4px;
-     opacity: 0.14;
-     background-color: #000000;
-   }
+  .lil-slash{
+    width: 87px;
+    height: 4px;
+    opacity: 0.14;
+    background-color: #000000;
+    margin: 0 auto 18px auto;
+  }
   .lil-paragraph{
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     color: #ffffff;
+    padding: 0 0 0 11px;
   }
 }

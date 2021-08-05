@@ -25,6 +25,12 @@
 }
 @font-face {
   font-family: 'TitilliumWeb';
+  font-weight: 600;
+  src: url('../fonts/TitilliumWeb-SemiBold.ttf') format("opentype"); /* IE9 Compat Modes */
+  src: url('../fonts/TitilliumWeb-SemiBold.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'TitilliumWeb';
   font-weight: 700;
   src: url('../fonts/TitilliumWeb-Bold.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/TitilliumWeb-Bold.ttf') format("truetype");

@@ -1,0 +1,32 @@
+.purple-color-container{
+  background-color: #17c2a4;
+  width: 100%;
+  height: 748px;
+}
+.lil-center-heading{
+  @include heading-slash-paragraph;
+  margin: 0 auto;
+}
+.flag{
+  display: flex;
+  flex-direction: column;
+}
+.item-title{
+  @include variable-txt-color(24px,18px,700,0.2em,#ffffff);
+  margin: 0 0 0 0;
+}
+.red-flag {
+ height: 122px;
+  width: 125px;
+  margin: 0 auto 0 auto;
+}
+.service-one-item{
+  text-align: center;
+  margin: 145px 0 0 0;
+}
+.lil-description-items{
+  max-width: 1440px;
+}
+.lorem-paragraph{
+  @include variable-txt-color(16px,24px,300,0.2em,#ffffff);
+}
