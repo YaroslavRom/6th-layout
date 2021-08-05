@@ -5459,6 +5459,148 @@ nav .menu-item5-spacing {
   border-bottom: 4px solid #14a58c;
 }
 
+.pink-color-container {
+  background-color: #d74680;
+  height: 894px;
+  width: 100%;
+}
+
+.fifth-lil {
+  display: flex;
+  flex-direction: column;
+  max-width: 630px;
+  text-align: center;
+}
+.fifth-lil .lil-tittle {
+  font-size: 40px;
+  line-height: 29px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 119px 0 22px 3px;
+}
+.fifth-lil .lil-slash {
+  width: 87px;
+  height: 4px;
+  opacity: 0.14;
+  background-color: #000000;
+  margin: 0 auto 18px auto;
+}
+.fifth-lil .lil-paragraph {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding: 0 0 0 11px;
+}
+
+.people-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: #787878;
+}
+
+.comment-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-paragraph {
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.review-name {
+  font-size: 24px;
+  line-height: 26x;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.review-tittle {
+  font-size: 18px;
+  line-height: 26x;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #ffdd99;
+}
+
+.aqua-blue-container {
+  background-color: #3c5499;
+  height: 819px;
+  width: 100%;
+}
+
+.sixth-lil {
+  display: flex;
+  flex-direction: column;
+  max-width: 630px;
+  text-align: center;
+}
+.sixth-lil .lil-tittle {
+  font-size: 40px;
+  line-height: 29px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 119px 0 22px 3px;
+}
+.sixth-lil .lil-slash {
+  width: 87px;
+  height: 4px;
+  opacity: 0.14;
+  background-color: #000000;
+  margin: 0 auto 18px auto;
+}
+.sixth-lil .lil-paragraph {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding: 0 0 0 11px;
+}
+
+.send-message-botton {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  margin: 0 auto;
+  width: 293px;
+  height: 65px;
+  background-color: #30bae7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-bottom: 4px solid #299ec5;
+}
+
+.dark-blue-container {
+  background-color: #344b8e;
+  height: 112px;
+  width: 100%;
+}
+.dark-blue-container ul {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @font-face {
   font-family: "TitilliumWeb";
   font-weight: 300;

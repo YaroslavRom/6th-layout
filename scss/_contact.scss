@@ -1,0 +1,10 @@
+@import "mixins";
+.aqua-blue-container{
+  @include background-color-container(#3c5499,819px);
+}
+.sixth-lil{
+  @include heading-slash-paragraph(#ffffff,#000000, #ffffff)
+}
+.send-message-botton{
+  @include button(#30bae7,#299ec5);
+}

@@ -1,0 +1,26 @@
+@import "mixins";
+.pink-color-container{
+  @include background-color-container(#d74680,894px);
+}
+.fifth-lil{
+  @include heading-slash-paragraph(#ffffff,#000000, #ffffff)
+}
+.people-avatar{
+  @include custom-images(96px,96px);
+  border-radius: 50%;
+  background-color: #787878;
+}
+.comment-item{
+  display: flex;
+  flex-direction: row;
+}
+.review-paragraph{
+  @include variable-txt-color(21px,31px,400,0.02em,#ffffff);
+  font-style: italic;
+}
+.review-name{
+  @include variable-txt-color(24px,26x,700,0.02em,#ffffff);
+}
+.review-tittle{
+  @include variable-txt-color(18px,26x,400,0.02em,#ffdd99);
+}

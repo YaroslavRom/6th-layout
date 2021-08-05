@@ -1,0 +1,10 @@
+@import "mixins";
+.dark-blue-container{
+  @include background-color-container(#344b8e,112px);
+  ul{
+    @include variable-txt-color(24px,29px,600,0.02em,#ffffff);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
