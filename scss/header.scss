@@ -1,0 +1,80 @@
+@import '_mixins';
+.color-container{
+  width: 100%;
+  background-color: #87509c;
+  height: 595px;
+}
+.container{
+  height: auto;
+  .row{
+    justify-content: space-between;
+  }
+}
+nav{
+  max-width: 495px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  li{
+    width: 77px;
+    height: 32px;
+    display: flex;
+    margin: 0 13px 0 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-item3-spacing{
+    margin: 0 8px 0 0;
+  }
+  .menu-item5-spacing{
+    margin: 0 0 0 6px;
+  }
+}
+.menu-list{
+  li{
+    &:hover{
+      background-color: #643a79;
+      border-radius: 5px;
+    }
+  }
+  @include variable-txt-color(16px,0,400,0,#ffffff);
+  margin: 0 0 2px 2px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+.cuda{
+  width: 118px;
+  height: 37px;
+  padding: 57px 0 0 76px;
+}
+
+.about-us{
+  @include variable-txt-color(42.2px,48px,700,1,#f7f3ea);
+  margin:135px 0 56px -19px;
+}
+.about-us-spacing{
+  margin: 0 0 0 9px;
+}
+.work-inviter{
+  max-width: 919px;
+  text-align: center;
+  margin: 0 auto;
+}
+.work-invite-button{
+  margin: 0 auto;
+  width: 293px;
+  height: 65px;
+  background-color: #eb7d4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-bottom: 4px solid #c86a40;
+}
+.work-with-us{
+  @include variable-txt-color(18px,26px,600,0.019em,#ffffff);
+  margin: 5px 0 0 3px;
+}
