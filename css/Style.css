@@ -5357,8 +5357,10 @@ nav .menu-item5-spacing {
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2px;
   color: #3c4761;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .staff-photo {
@@ -5369,8 +5371,88 @@ nav .menu-item5-spacing {
 }
 
 .staff-list {
-  padding: 53px 0 0 0;
+  padding: 52px 0 0 0;
   margin: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-item {
+  max-width: 200px;
+}
+
+.first-two-cards {
+  padding: 0 0 0 0;
+  margin: 0 0 0 50px;
+}
+
+.second-two-cards {
+  padding: 0 0 0 0;
+  margin: 0 50px 0 0;
+}
+
+.first-two-cards, .second-two-cards {
+  display: flex;
+  flex-direction: row;
+  max-width: 480px;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+.staff {
+  display: block;
+}
+
+.first-staff-member {
+  padding: 0 0 0 0;
+  margin: 40px 0 -4px -60px;
+}
+
+.second-staff-member {
+  padding: 0 0 0 0;
+  margin: 40px 0 -3px 2px;
+}
+
+.third-staff-member {
+  padding: 0 0 0 0;
+  margin: 40px 0 -3px -58px;
+  word-spacing: -1.7px;
+}
+
+.fourth-staff-member {
+  padding: 0 0 0 0;
+  margin: 40px 0 -3px 11px;
+  word-spacing: -1.7px;
+}
+
+.every-first-staff-avatar {
+  margin: 0 0 0 -30px;
+}
+
+.every-second-staff-avatar {
+  margin: 0 30px 0 0;
+}
+
+.work-place-one {
+  margin: 0 0 0 -58px;
+  letter-spacing: 0.5px;
+}
+
+.work-place-two {
+  margin: 0 0 0 2px;
+  letter-spacing: 0.5px;
+}
+
+.work-place-three {
+  margin: 0 0 0 -59px;
+  letter-spacing: 0.34px;
+}
+
+.work-place-four {
+  margin: 0 0 0 13px;
+  letter-spacing: 0.6px;
 }
 
 .third-lil {
@@ -5402,18 +5484,25 @@ nav .menu-item5-spacing {
   color: #3c4761;
   padding: 0 0 0 11px;
 }
+.third-lil .lil-tittle {
+  margin: 117px -4px 21px 3px;
+}
 
 .skill-name {
   font-size: 24px;
   line-height: 18px;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.016em;
   color: #3c4761;
+  max-width: 142px;
+  display: block;
+  padding: 29px 0 0 11px;
 }
 
 .skills-list {
   padding: 79px 0 130px 0;
   margin: 0 0 0 0;
+  margin: 3px 0 0 55px;
 }
 
 .fourth-lil {

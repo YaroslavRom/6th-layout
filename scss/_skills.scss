@@ -1,9 +1,16 @@
 .third-lil{
-  @include heading-slash-paragraph(#3c4761,#000000,#3c4761)
+  @include heading-slash-paragraph(#3c4761,#000000,#3c4761);
+  .lil-tittle{
+    margin: 117px -4px 21px 3px;
+  }
 }
 .skill-name{
-  @include variable-txt-color(24px,18px,700,0.2em,#3c4761);
+  @include variable-txt-color(24px,18px,700,0.016em,#3c4761);
+  max-width: 142px;
+  display: block;
+  padding: 29px 0 0 11px;
 }
 .skills-list{
-  @include padding-margin(79px, 0, 130px, 0, 0, 0, 0, 0)
+  @include padding-margin(79px, 0, 130px, 0, 0, 0, 0, 0);
+  margin:3px 0 0 55px;
 }

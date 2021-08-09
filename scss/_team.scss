@@ -1,7 +1,7 @@
 @import "mixins";
 
 .gray-color-container{
-@include background-color-container(#e7f1f8,913px);
+  @include background-color-container(#e7f1f8,913px);
 }
 .second-lil{
   @include heading-slash-paragraph(#3c4761,#000000,#3c4761)
@@ -10,13 +10,14 @@
   @include custom-images(32px,32px);
 }
 .work-tittle{
-  @include variable-txt-color(16px,18px,400,0.02em,#30bae7)
+  @include variable-txt-color(16px,18px,400,0.02em,#30bae7);
 }
 .staff{
   @include variable-txt-color(24px,18px,700,0.02em,#27283d);
 }
 .staff-description{
-  @include variable-txt-color(16px,24px,300,0.2em,#3c4761)
+  @include variable-txt-color(16px,24px,300,0.2px,#3c4761);
+  @include padding-margin(0,0,0,0,0,0,0,0);
 }
 .staff-photo{
   @include custom-images(200px,200px);
@@ -24,5 +25,64 @@
   border-radius: 50%;
 }
 .staff-list{
- @include padding-margin(53px,0,0,0,0,0,0,0);
+  @include padding-margin(52px,0,0,0,0,0,0,0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-item{
+  max-width: 200px;
+}
+.first-two-cards {
+  @include padding-margin(0, 0, 0, 0, 0, 0,0,50px);
+}
+.second-two-cards{
+  @include padding-margin(0, 0, 0, 0, 0,50px,0, 0);
+}
+.first-two-cards,.second-two-cards{
+  display: flex;
+  flex-direction: row;
+  max-width:480px;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+.staff{
+  display: block;
+}
+.first-staff-member{
+  @include padding-margin(0,0,0,0,40px, 0, -4px, -60px);
+}
+.second-staff-member{
+  @include padding-margin(0,0,0,0,40px, 0, -3px, 2px);
+}
+.third-staff-member{
+   @include padding-margin(0,0,0,0,40px, 0, -3px, -58px);
+  word-spacing: -1.7px;
+}
+.fourth-staff-member{
+    @include padding-margin(0,0,0,0,40px, 0, -3px, 11px);
+  word-spacing: -1.7px;
+  }
+.every-first-staff-avatar{
+  margin: 0 0 0 -30px;
+}
+.every-second-staff-avatar{
+  margin: 0 30px 0 0;
+}
+.work-place-one{
+  margin: 0 0 0 -58px;
+  letter-spacing: 0.5px;
+}
+.work-place-two{
+  margin: 0 0 0 2px;
+  letter-spacing: 0.5px;
+}
+.work-place-three{
+  margin: 0 0 0 -59px;
+  letter-spacing: 0.34px;
+}
+.work-place-four{
+  margin: 0 0 0 13px;
+  letter-spacing: 0.6px;
 }
