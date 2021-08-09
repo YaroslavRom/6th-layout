@@ -5165,11 +5165,11 @@ nav .menu-item5-spacing {
   font-size: 18px;
   line-height: 26px;
   font-weight: 600;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
   width: 293px;
-  height: 65px;
+  height: 66px;
   background-color: #eb7d4b;
   display: flex;
   justify-content: center;
@@ -5368,6 +5368,11 @@ nav .menu-item5-spacing {
   border-radius: 50%;
 }
 
+.staff-list {
+  padding: 53px 0 0 0;
+  margin: 0 0 0 0;
+}
+
 .third-lil {
   display: flex;
   flex-direction: column;
@@ -5404,6 +5409,11 @@ nav .menu-item5-spacing {
   font-weight: 700;
   letter-spacing: 0.2em;
   color: #3c4761;
+}
+
+.skills-list {
+  padding: 79px 0 130px 0;
+  margin: 0 0 0 0;
 }
 
 .fourth-lil {
@@ -5446,17 +5456,22 @@ nav .menu-item5-spacing {
   font-size: 18px;
   line-height: 26px;
   font-weight: 600;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
   width: 293px;
-  height: 65px;
+  height: 66px;
   background-color: #17c2a4;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   border-bottom: 4px solid #14a58c;
+}
+
+.laptops-list {
+  padding: 143px 0 151px 0;
+  margin: 0 0 0 0;
 }
 
 .pink-color-container {
@@ -5532,6 +5547,11 @@ nav .menu-item5-spacing {
   color: #ffdd99;
 }
 
+.review-list {
+  padding: 63px 0 0 0;
+  margin: 0 0 0 0;
+}
+
 .aqua-blue-container {
   background-color: #3c5499;
   height: 819px;
@@ -5572,11 +5592,11 @@ nav .menu-item5-spacing {
   font-size: 18px;
   line-height: 26px;
   font-weight: 600;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
   width: 293px;
-  height: 65px;
+  height: 66px;
   background-color: #30bae7;
   display: flex;
   justify-content: center;
@@ -5599,6 +5619,70 @@ nav .menu-item5-spacing {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+form {
+  padding: 0 0 0 0;
+  margin: 0 auto 0 auto;
+  max-width: 860px;
+}
+
+input {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #ffffff;
+  height: 56px;
+  background-color: #273a71;
+}
+
+input, textarea {
+  border-radius: 6px;
+  color: white;
+}
+input::placeholder, textarea::placeholder {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+input::placeholder:active, textarea::placeholder:active {
+  visibility: hidden;
+}
+
+.first-input {
+  width: 390px;
+  padding: 0 0 0 22px;
+  margin: 47px 0 0 0;
+}
+
+.second-input {
+  padding: 0 0 0 23px;
+  margin: 47px 0 23px 12px;
+  width: 388px;
+}
+
+textarea {
+  width: 832px;
+  height: 177px;
+  background-color: #273a71;
+  padding: 23px 0 0 23px;
+  margin: 0 0 56px 0;
+}
+textarea::placeholder {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: -1.7px;
+  color: #ffffff;
+  word-spacing: -4.3px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 @font-face {

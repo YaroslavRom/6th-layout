@@ -47,14 +47,18 @@
   height: $height;
 }
 @mixin button ($button-color, $border-color){
-  @include variable-txt-color(18px,26px,600,0.2em,#ffffff);
+  @include variable-txt-color(18px,26px,600,0.02em,#ffffff);
   margin: 0 auto;
   width: 293px;
-  height: 65px;
+  height: 66px;
   background-color: $button-color;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   border-bottom: 4px solid $border-color;
+}
+@mixin padding-margin($padding-top,$padding-right, $padding-bottom, $padding-left, $margin-top,$margin-right, $margin-bottom,$margin-left){
+  padding: $padding-top $padding-right $padding-bottom $padding-left;
+  margin: $margin-top $margin-right $margin-bottom $margin-left;
 }

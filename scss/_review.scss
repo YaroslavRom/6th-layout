@@ -24,3 +24,6 @@
 .review-tittle{
   @include variable-txt-color(18px,26x,400,0.02em,#ffdd99);
 }
+.review-list{
+  @include padding-margin(63px, 0, 0, 0, 0, 0, 0, 0);
+}

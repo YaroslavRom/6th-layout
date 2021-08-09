@@ -4,3 +4,6 @@
 .skill-name{
   @include variable-txt-color(24px,18px,700,0.2em,#3c4761);
 }
+.skills-list{
+  @include padding-margin(79px, 0, 130px, 0, 0, 0, 0, 0)
+}

@@ -23,3 +23,6 @@
   background-color: #878787;
   border-radius: 50%;
 }
+.staff-list{
+ @include padding-margin(53px,0,0,0,0,0,0,0);
+}
