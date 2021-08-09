@@ -5605,22 +5605,6 @@ nav .menu-item5-spacing {
   border-bottom: 4px solid #299ec5;
 }
 
-.dark-blue-container {
-  background-color: #344b8e;
-  height: 112px;
-  width: 100%;
-}
-.dark-blue-container ul {
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 form {
   padding: 0 0 0 0;
   margin: 0 auto 0 auto;
@@ -5683,6 +5667,32 @@ textarea::placeholder {
 .input-box {
   display: flex;
   justify-content: space-between;
+}
+
+.dark-blue-container {
+  background-color: #344b8e;
+  height: 112px;
+  width: 100%;
+}
+.dark-blue-container ul {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-list {
+  max-width: 941px;
+  padding: 42px 0 0 0;
+  margin: 0 auto 0 auto;
+}
+
+.footer-list-item:hover {
+  color: #30bae7;
 }
 
 @font-face {

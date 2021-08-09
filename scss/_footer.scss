@@ -8,45 +8,12 @@
     justify-content: center;
   }
 }
-form{
-  @include padding-margin(0, 0, 0, 0, 0, auto, 0, auto);
-  max-width: 860px;
+.footer-list{
+  max-width: 941px;
+  @include padding-margin(42px, 0, 0, 0, 0, auto, 0, auto);
 }
-input{
-  @include variable-txt-color(18px,18px,400,0,#ffffff);
-  height: 56px;
-  background-color: #273a71;
-}
-input,textarea{
-  border-radius: 6px;
-  color: rgba(255,255,255,1);
-  &::placeholder{
-    @include variable-txt-color(18px,18px,400,-0.5px,#ffffff);
-
-  &:active{
-    visibility: hidden;
+.footer-list-item{
+  &:hover{
+    color: #30bae7;
   }
-  }
-}
-.first-input{
-  width: 390px;
-  @include padding-margin(0, 0, 0, 22px, 47px, 0, 0,0);
-}
-.second-input{
-  @include padding-margin(0, 0, 0, 23px, 47px, 0, 23px, 12px);
-  width: 388px;
-}
-textarea{
-  width: 832px;
-  height: 177px;
-  background-color: #273a71;
-  @include padding-margin(23px, 0, 0, 23px, 0, 0, 56px, 0);
-  &::placeholder{
-    @include variable-txt-color(18px,18px,400,-1.7px,#ffffff);
-    word-spacing:-4.3px;
-  }
-}
-.input-box{
-  display: flex;
-  justify-content: space-between;
 }
