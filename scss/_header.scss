@@ -63,8 +63,9 @@ nav{
 }
 .work-invite-button{
   @include button( #eb7d4b,#c86a40);
+  width: 294px;
 }
 .work-with-us{
   @include variable-txt-color(18px,26px,600,0.019em,#ffffff);
-  margin: 5px 0 0 3px;
+  margin: 3px 0 0 3px;
 }

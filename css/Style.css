@@ -5175,6 +5175,7 @@ nav .menu-item5-spacing {
   align-items: center;
   border-radius: 5px;
   border-bottom: 4px solid #c86a40;
+  width: 294px;
 }
 
 .work-with-us {
@@ -5183,12 +5184,12 @@ nav .menu-item5-spacing {
   font-weight: 600;
   letter-spacing: 0.019em;
   color: #ffffff;
-  margin: 5px 0 0 3px;
+  margin: 3px 0 0 3px;
 }
 
 .green-color-container {
   background-color: #17c2a4;
-  height: 748px;
+  height: 747px;
   width: 100%;
 }
 
@@ -5222,6 +5223,10 @@ nav .menu-item5-spacing {
   color: #ffffff;
   padding: 0 0 0 11px;
 }
+.lil-center-heading .lil-paragraph {
+  letter-spacing: 0.4px;
+  max-width: 611px;
+}
 
 .flag {
   display: flex;
@@ -5252,31 +5257,31 @@ nav .menu-item5-spacing {
   font-weight: 300;
   letter-spacing: 0.01em;
   color: #ffffff;
-  margin: 19px 9px 0 -3px;
+  margin: 20px 9px 0 -3px;
 }
 
 .pencil {
   height: 130px;
   width: 90px;
-  margin: 0 auto 59px auto;
+  margin: 0 auto 58px auto;
 }
 
 .setting {
   width: 160px;
   height: 125px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto 59px auto;
 }
 
 .rocket {
   height: 136px;
   width: 97px;
-  margin: 0 auto 55px auto;
+  margin: 0 auto 54px auto;
 }
 
 .red-flag {
   height: 122px;
   width: 125px;
-  margin: 0 auto 63px auto;
+  margin: 0 auto 62px auto;
 }
 
 .service-first-item {
@@ -5290,9 +5295,25 @@ nav .menu-item5-spacing {
 .service-third-item {
   margin: 81px 0 0 42px;
 }
+.service-third-item .item-title {
+  margin: 0 0 0 5px;
+  letter-spacing: 0.3px;
+}
+.service-third-item .lorem-paragraph {
+  margin: 20px -8px 0 0;
+  letter-spacing: 0.2px;
+}
 
 .service-fourth-item {
   margin: 75px 0 0 51px;
+}
+.service-fourth-item .item-title {
+  margin: 0 0 0 6px;
+  letter-spacing: 0.4px;
+}
+.service-fourth-item .lorem-paragraph {
+  margin: 20px -7px 0 0;
+  letter-spacing: 0.2px;
 }
 
 .gray-color-container {
@@ -5306,6 +5327,7 @@ nav .menu-item5-spacing {
   flex-direction: column;
   max-width: 630px;
   text-align: center;
+  max-width: 739px;
 }
 .second-lil .lil-tittle {
   font-size: 40px;
@@ -5329,6 +5351,14 @@ nav .menu-item5-spacing {
   letter-spacing: 0.03em;
   color: #3c4761;
   padding: 0 0 0 11px;
+}
+.second-lil .lil-tittle {
+  letter-spacing: 3.92px;
+}
+.second-lil .lil-paragraph {
+  max-width: 828px;
+  letter-spacing: 0.4px;
+  padding: 3px 0 0 4px;
 }
 
 .social-media-img {
@@ -5370,7 +5400,7 @@ nav .menu-item5-spacing {
 }
 
 .staff-list {
-  padding: 52px 0 0 0;
+  padding: 76px 0 0 0;
   margin: 0 0 0 0;
   display: flex;
   flex-direction: row;
@@ -5675,6 +5705,7 @@ nav .menu-item5-spacing {
 }
 .pink-color-container .col-lg-6 {
   max-width: 33%;
+  margin: 0 -30px 115px 0;
 }
 
 .fifth-lil {

@@ -4,7 +4,16 @@
   @include background-color-container(#e7f1f8,913px);
 }
 .second-lil{
-  @include heading-slash-paragraph(#3c4761,#000000,#3c4761)
+  @include heading-slash-paragraph(#3c4761,#000000,#3c4761);
+  max-width: 739px;
+  .lil-tittle{
+    letter-spacing: 3.92px;
+  }
+  .lil-paragraph{
+    max-width: 828px;
+    letter-spacing: 0.4px;
+    padding: 3px 0 0 4px;
+  }
 }
 .social-media-img{
   @include custom-images(32px,32px);
@@ -25,7 +34,7 @@
   border-radius: 50%;
 }
 .staff-list{
-  @include padding-margin(52px,0,0,0,0,0,0,0);
+  @include padding-margin(76px,0,0,0,0,0,0,0);
   display: flex;
   flex-direction: row;
   justify-content: space-between;

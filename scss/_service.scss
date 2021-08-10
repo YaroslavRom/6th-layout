@@ -1,10 +1,14 @@
 @import "mixins";
 .green-color-container{
-  @include background-color-container(#17c2a4,748px);
+  @include background-color-container(#17c2a4,747px);
 }
 .lil-center-heading{
   @include heading-slash-paragraph(#ffffff,#000000,#ffffff);
   margin: 0 auto;
+  .lil-paragraph{
+    letter-spacing: 0.4px;
+    max-width: 611px;
+  }
 }
 .flag{
   display: flex;
@@ -23,27 +27,27 @@
 }
 .lorem-paragraph{
   @include variable-txt-color(16px,24px,300,0.01em,#ffffff);
-  margin: 19px 9px 0 -3px;
+  margin: 20px 9px 0 -3px;
 }
 .pencil{
   height: 130px;
   width: 90px;
-  margin: 0 auto 59px auto;
+  margin: 0 auto 58px auto;
 }
 .setting{
   width: 160px;
   height: 125px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto 59px auto;
 }
 .rocket{
   height: 136px;
   width: 97px;
-  margin: 0 auto 55px auto;
+  margin: 0 auto 54px auto;
 }
 .red-flag {
   height: 122px;
   width: 125px;
-  margin: 0 auto 63px auto;
+  margin: 0 auto 62px auto;
 }
 .service-first-item{
   margin: 81px 0 0 71px;
@@ -53,7 +57,23 @@
 }
 .service-third-item{
   margin: 81px 0 0 42px;
+  .item-title{
+    margin: 0 0 0 5px;
+    letter-spacing: 0.3px;
+  }
+  .lorem-paragraph{
+    margin: 20px -8px 0 0;
+    letter-spacing: 0.2px;
+  }
 }
 .service-fourth-item{
   margin: 75px 0 0 51px;
+  .item-title{
+    margin: 0 0 0 6px;
+    letter-spacing: 0.4px;
+  }
+  .lorem-paragraph{
+    margin: 20px -7px 0 0;
+    letter-spacing: 0.2px;
+  }
 }
