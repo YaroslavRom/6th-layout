@@ -5600,7 +5600,7 @@ nav .menu-item5-spacing {
 }
 
 .skill-item-four {
-  margin: -1px 0 0 -8px;
+  margin: 0 0 0 -8px;
 }
 .skill-item-four .card-text {
   padding: 29px 0 0 0;
@@ -5960,7 +5960,7 @@ nav .menu-item5-spacing {
   padding: 0 0 0 11px;
 }
 .sixth-lil .lil-tittle {
-  margin: 120px 0 22px 6px;
+  margin: 119px 0 22px 6px;
 }
 .sixth-lil .lil-paragraph {
   max-width: 800px;
@@ -6062,17 +6062,17 @@ textarea::placeholder {
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+}
+
+.footer-list-item:hover {
+  color: #30bae7;
 }
 
 .footer-list {
   max-width: 941px;
   padding: 42px 0 0 0;
   margin: 0 auto 0 auto;
-}
-
-.footer-list-item:hover {
-  color: #30bae7;
+  justify-content: space-between;
 }
 
 @font-face {

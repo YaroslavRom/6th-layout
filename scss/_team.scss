@@ -66,13 +66,13 @@
   @include padding-margin(0,0,0,0,40px, 0, -3px, 2px);
 }
 .third-staff-member{
-   @include padding-margin(0,0,0,0,40px, 0, -3px, -58px);
+  @include padding-margin(0,0,0,0,40px, 0, -3px, -58px);
   word-spacing: -1.7px;
 }
 .fourth-staff-member{
-    @include padding-margin(0,0,0,0,40px, 0, -3px, 11px);
+  @include padding-margin(0,0,0,0,40px, 0, -3px, 11px);
   word-spacing: -1.7px;
-  }
+}
 .every-first-staff-avatar{
   margin: 0 0 0 -30px;
 }

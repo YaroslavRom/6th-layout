@@ -5,15 +5,15 @@
     @include variable-txt-color(24px,29px,600,0.02em,#ffffff);
     display: flex;
     flex-direction: row;
-    justify-content: center;
   }
-}
-.footer-list{
-  max-width: 941px;
-  @include padding-margin(42px, 0, 0, 0, 0, auto, 0, auto);
 }
 .footer-list-item{
   &:hover{
     color: #30bae7;
   }
+}
+.footer-list{
+  max-width: 941px;
+  @include padding-margin(42px, 0, 0, 0, 0, auto, 0, auto);
+  justify-content: space-between;
 }
