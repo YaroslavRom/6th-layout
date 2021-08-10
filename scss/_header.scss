@@ -1,11 +1,11 @@
 @import '_mixins';
 .purple-color-container{
   @include background-color-container(#87509c,596px);
-}
-.container{
-  height: auto;
-  .row{
-    justify-content: space-between;
+  .container{
+    height: auto;
+    .row{
+      justify-content: space-between;
+    }
   }
 }
 nav{

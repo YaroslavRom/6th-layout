@@ -5089,11 +5089,10 @@ a {
   height: 596px;
   width: 100%;
 }
-
-.container {
+.purple-color-container .container {
   height: auto;
 }
-.container .row {
+.purple-color-container .container .row {
   justify-content: space-between;
 }
 
@@ -5494,15 +5493,46 @@ nav .menu-item5-spacing {
   font-weight: 700;
   letter-spacing: 0.016em;
   color: #3c4761;
-  max-width: 142px;
   display: block;
-  padding: 29px 0 0 11px;
 }
 
 .skills-list {
   padding: 79px 0 130px 0;
   margin: 0 0 0 0;
-  margin: 3px 0 0 55px;
+  margin: 3px 0 22px 0;
+  text-align: center;
+}
+
+.skill-item {
+  padding: 0;
+}
+
+.skill-item-one {
+  margin: 0 -11px 0 7px;
+}
+.skill-item-one .card-text {
+  padding: 29px 0 0 1px;
+}
+
+.skill-item-two {
+  margin: 0 -2px 0 6px;
+}
+.skill-item-two .card-text {
+  padding: 29px 0 0 1px;
+}
+
+.skill-item-three {
+  margin: 0 4px 0 -4px;
+}
+.skill-item-three .card-text {
+  padding: 29px 0 0 4px;
+}
+
+.skill-item-four {
+  margin: 0 0 0 -8px;
+}
+.skill-item-four .card-text {
+  padding: 29px 0 0 0;
 }
 
 .fourth-lil {

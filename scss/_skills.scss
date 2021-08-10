@@ -6,11 +6,46 @@
 }
 .skill-name{
   @include variable-txt-color(24px,18px,700,0.016em,#3c4761);
-  max-width: 142px;
+  //max-width: 142px;
   display: block;
-  padding: 29px 0 0 11px;
+  //padding: 29px 0 0 11px;
 }
 .skills-list{
   @include padding-margin(79px, 0, 130px, 0, 0, 0, 0, 0);
-  margin:3px 0 0 55px;
+  margin:3px 0 22px 0;
+  text-align: center;
 }
+.skill-item{
+  padding: 0;
+}
+
+.second-card-text{
+  //margin: 0 0 0 -11px;
+}
+.skill-item-one{
+  margin: 0 -11px 0 7px;
+  .card-text{
+    padding: 29px 0 0 1px;
+  }
+}
+.skill-item-two{
+  margin: 0 -2px 0 6px;
+  .card-text{
+    padding: 29px 0 0 1px;
+  }
+  }
+  .skill-item-three{
+    margin: 0 4px 0 -4px;
+    .card-text{
+      padding: 29px 0 0 4px;
+    }
+  }
+.skill-item-four{
+ margin: 0 0 0 -8px;
+  .card-text{
+    padding: 29px 0 0 0;
+  }
+ }
+//.skill-item-one, .skill-item-two,.skill-item-three,.skill-item-four{
+//  padding: 0;
+//}
