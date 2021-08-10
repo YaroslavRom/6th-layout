@@ -1,6 +1,12 @@
 @import "mixins";
 .pink-color-container{
   @include background-color-container(#d74680,894px);
+  .container{
+    max-width: 1410px;
+  }
+  .col-lg-6{
+    max-width: 33%;
+  }
 }
 .fifth-lil{
   @include heading-slash-paragraph(#ffffff,#000000, #ffffff)
@@ -13,6 +19,20 @@
 .comment-item{
   display: flex;
   flex-direction: row;
+  padding: 0 0 0 155px;
+  .card-body{
+    padding: 4px 0 0 47px;
+    max-width: 333px;
+  }
+  span{
+    display: inline-block;
+  }
+}
+.review-tittle{
+  padding: 0 0 0 2px;
+}
+.review-name{
+  padding: 23px 0 6px 0;
 }
 .review-paragraph{
   @include variable-txt-color(21px,31px,400,0.02em,#ffffff);
@@ -25,5 +45,5 @@
   @include variable-txt-color(18px,26x,400,0.02em,#ffdd99);
 }
 .review-list{
-  @include padding-margin(63px, 0, 0, 0, 0, 0, 0, 0);
+  @include padding-margin(64px, 0, 0, 0, 0,0,0,0);
 }

@@ -11,8 +11,7 @@
   //padding: 29px 0 0 11px;
 }
 .skills-list{
-  @include padding-margin(79px, 0, 130px, 0, 0, 0, 0, 0);
-  margin:3px 0 22px 0;
+  @include padding-margin(79px, 0, 123px, 0, 3px, 0, 0, 0);
   text-align: center;
 }
 .skill-item{

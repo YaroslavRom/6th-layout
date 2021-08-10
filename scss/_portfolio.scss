@@ -1,6 +1,9 @@
 @import "mixins";
 .fourth-lil{
   @include heading-slash-paragraph(#393939,#000000, #393939);
+  .lil-paragraph{
+    letter-spacing: 0.4px;
+  }
 }
 .human-color-container{
   @include background-color-container(#ffdd99,1423px);
@@ -9,5 +12,53 @@
   @include button(#17c2a4,#14a58c);
 }
 .laptops-list{
-  @include padding-margin(143px, 0, 151px, 0, 0, 0, 0, 0);
+  @include padding-margin(62px, 0, 81px, 5px, 0, 0, 0, 0);
+  text-align: center;
+}
+.word-type-filter{
+  margin: 0 auto;
+}
+.filter-criteria-item{
+  @include padding-margin(0,0,0,0,40px, 9px, 0, 4px);
+  width: 85px;
+  height: 38px;
+  background-color: rgba(0,0,0,0.07);
+  border-radius: 6px;
+  &:hover{
+    background-color: #ffffff;
+  }
+}
+.criteria-item{
+  @include variable-txt-color(18px,38px,400,-0.07em,#393939);
+}
+.laptop-item-txt{
+  @include variable-txt-color(18px,19px,400,0.02em,#393939);
+  display: block;
+}
+.laptop-item{
+  padding: 0;
+}
+.laptop-item-one{
+  margin: 0 0 0 2px;
+}
+.laptop-txt-one{
+  padding: 27px 0 62px 3px;
+}
+.laptop-item-two{
+  margin: 3px 0 0 -7px;
+}
+.laptop-txt-two{
+  padding: 24px 6px 0 0;
+}
+.laptop-item-three{
+  margin: 0 0 0 4px;
+}
+.laptop-txt-three{
+  padding: 26px 23px 0 0;
+}
+.laptop-item-four{
+  margin: 1px 0 0 -8px;
+}
+.laptop-txt-four{
+  padding: 25px 0 0 14px;
 }

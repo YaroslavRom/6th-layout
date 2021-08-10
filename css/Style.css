@@ -5497,9 +5497,8 @@ nav .menu-item5-spacing {
 }
 
 .skills-list {
-  padding: 79px 0 130px 0;
-  margin: 0 0 0 0;
-  margin: 3px 0 22px 0;
+  padding: 79px 0 123px 0;
+  margin: 3px 0 0 0;
   text-align: center;
 }
 
@@ -5564,6 +5563,9 @@ nav .menu-item5-spacing {
   color: #393939;
   padding: 0 0 0 11px;
 }
+.fourth-lil .lil-paragraph {
+  letter-spacing: 0.4px;
+}
 
 .human-color-container {
   background-color: #ffdd99;
@@ -5589,14 +5591,90 @@ nav .menu-item5-spacing {
 }
 
 .laptops-list {
-  padding: 143px 0 151px 0;
+  padding: 62px 0 81px 5px;
   margin: 0 0 0 0;
+  text-align: center;
+}
+
+.word-type-filter {
+  margin: 0 auto;
+}
+
+.filter-criteria-item {
+  padding: 0 0 0 0;
+  margin: 40px 9px 0 4px;
+  width: 85px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+.filter-criteria-item:hover {
+  background-color: #ffffff;
+}
+
+.criteria-item {
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 400;
+  letter-spacing: -0.07em;
+  color: #393939;
+}
+
+.laptop-item-txt {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #393939;
+  display: block;
+}
+
+.laptop-item {
+  padding: 0;
+}
+
+.laptop-item-one {
+  margin: 0 0 0 2px;
+}
+
+.laptop-txt-one {
+  padding: 27px 0 62px 3px;
+}
+
+.laptop-item-two {
+  margin: 3px 0 0 -7px;
+}
+
+.laptop-txt-two {
+  padding: 24px 6px 0 0;
+}
+
+.laptop-item-three {
+  margin: 0 0 0 4px;
+}
+
+.laptop-txt-three {
+  padding: 26px 23px 0 0;
+}
+
+.laptop-item-four {
+  margin: 1px 0 0 -8px;
+}
+
+.laptop-txt-four {
+  padding: 25px 0 0 14px;
 }
 
 .pink-color-container {
   background-color: #d74680;
   height: 894px;
   width: 100%;
+}
+.pink-color-container .container {
+  max-width: 1410px;
+}
+.pink-color-container .col-lg-6 {
+  max-width: 33%;
 }
 
 .fifth-lil {
@@ -5639,6 +5717,22 @@ nav .menu-item5-spacing {
 .comment-item {
   display: flex;
   flex-direction: row;
+  padding: 0 0 0 155px;
+}
+.comment-item .card-body {
+  padding: 4px 0 0 47px;
+  max-width: 333px;
+}
+.comment-item span {
+  display: inline-block;
+}
+
+.review-tittle {
+  padding: 0 0 0 2px;
+}
+
+.review-name {
+  padding: 23px 0 6px 0;
 }
 
 .review-paragraph {
@@ -5667,7 +5761,7 @@ nav .menu-item5-spacing {
 }
 
 .review-list {
-  padding: 63px 0 0 0;
+  padding: 64px 0 0 0;
   margin: 0 0 0 0;
 }
 
