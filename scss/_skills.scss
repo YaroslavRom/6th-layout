@@ -3,12 +3,16 @@
   .lil-tittle{
     margin: 117px -4px 21px 3px;
   }
+  .lil-paragraph{
+    max-width: 613px;
+    margin: 0 0 0 -1px;
+    letter-spacing: 0.4px;
+    line-height: 27px;
+  }
 }
 .skill-name{
   @include variable-txt-color(24px,18px,700,0.016em,#3c4761);
-  //max-width: 142px;
   display: block;
-  //padding: 29px 0 0 11px;
 }
 .skills-list{
   @include padding-margin(79px, 0, 123px, 0, 3px, 0, 0, 0);
@@ -17,34 +21,27 @@
 .skill-item{
   padding: 0;
 }
-
-.second-card-text{
-  //margin: 0 0 0 -11px;
-}
 .skill-item-one{
-  margin: 0 -11px 0 7px;
+  margin: -1px -11px 0 8px;
   .card-text{
     padding: 29px 0 0 1px;
   }
 }
 .skill-item-two{
-  margin: 0 -2px 0 6px;
+  margin: -1px -2px 0 6px;
   .card-text{
     padding: 29px 0 0 1px;
   }
   }
   .skill-item-three{
-    margin: 0 4px 0 -4px;
+    margin: -1px 4px 0 -4px;
     .card-text{
       padding: 29px 0 0 4px;
     }
   }
 .skill-item-four{
- margin: 0 0 0 -8px;
+ margin: -1px 0 0 -8px;
   .card-text{
     padding: 29px 0 0 0;
   }
  }
-//.skill-item-one, .skill-item-two,.skill-item-three,.skill-item-four{
-//  padding: 0;
-//}

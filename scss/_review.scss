@@ -5,12 +5,20 @@
     max-width: 1410px;
   }
   .col-lg-6{
-    max-width: 33%;
-    margin: 0 -30px 115px 0;
+    max-width: 38%;
+    margin: 0 -101px 145px 0;
   }
 }
 .fifth-lil{
-  @include heading-slash-paragraph(#ffffff,#000000, #ffffff)
+  @include heading-slash-paragraph(#ffffff,#000000, #ffffff);
+  .lil-tittle{
+    letter-spacing: 4px;
+    margin: 118px 0 22px 6px;
+  }
+  .lil-paragraph{
+    letter-spacing: 0.4px;
+    padding: 0 0 0 11px;
+  }
 }
 .people-avatar{
   @include custom-images(96px,96px);
@@ -23,7 +31,6 @@
   padding: 0 0 0 155px;
   .card-body{
     padding: 4px 0 0 47px;
-    max-width: 333px;
   }
   span{
     display: inline-block;
@@ -46,5 +53,46 @@
   @include variable-txt-color(18px,26x,400,0.02em,#ffdd99);
 }
 .review-list{
-  @include padding-margin(64px, 0, 0, 0, 0,0,0,0);
+  @include padding-margin(65px, 0, 0, 0, 0,0,0,0);
+}
+.review-name-one{
+  margin: 0 0 0 3px;
+  letter-spacing: 0.36px;
+}
+.review-tittle-one{
+  padding: 0 0 0 4px;
+  letter-spacing: 0.4px;
+}
+.review-tittle-two{
+  letter-spacing: 0.4px;
+  padding: 0;
+}
+.first-review-paragraph{
+  letter-spacing: 0.4px;
+}
+.third-review-paragraph{
+  letter-spacing: 0.3px;
+}
+.review-paragraph{
+  max-width: 366px;
+  letter-spacing: 0.2px;
+}
+.fourth-review-paragraph{
+  max-width: 378px;
+  letter-spacing: 0.1px;
+  margin: 0 0 0 -2px;
+}
+.review-name-three{
+  padding: 23px 0 7px 3px;
+}
+.review-tittle-three{
+  padding: 0 0 0 3px;
+}
+.review-name-four{
+  margin: 24px 0 6px -2px;
+  padding: 0;
+}
+.review-tittle-four{
+  letter-spacing: 0.6px;
+  margin: 0 0 0 -4px;
 }

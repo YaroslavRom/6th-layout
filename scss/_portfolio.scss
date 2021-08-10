@@ -4,12 +4,19 @@
   .lil-paragraph{
     letter-spacing: 0.4px;
   }
+  .lil-tittle{
+    letter-spacing: 4px;
+    margin: 119px 0 22px 6px;
+  }
 }
 .human-color-container{
   @include background-color-container(#ffdd99,1423px);
 }
 .load-projects-botton{
   @include button(#17c2a4,#14a58c);
+  width: 289px;
+  height: 63px;
+  padding: 3px 0 0 5px;
 }
 .laptops-list{
   @include padding-margin(62px, 0, 81px, 5px, 0, 0, 0, 0);
@@ -19,8 +26,8 @@
   margin: 0 auto;
 }
 .filter-criteria-item{
-  @include padding-margin(0,0,0,0,40px, 9px, 0, 4px);
-  width: 85px;
+  @include padding-margin(0,0,0,0,0,0,0,0);
+  width: 84px;
   height: 38px;
   background-color: rgba(0,0,0,0.07);
   border-radius: 6px;
@@ -29,7 +36,8 @@
   }
 }
 .criteria-item{
-  @include variable-txt-color(18px,38px,400,-0.07em,#393939);
+  @include variable-txt-color(18px,38px,400,0.7px,#393939);
+  margin: 0 0 0 1px;
 }
 .laptop-item-txt{
   @include variable-txt-color(18px,19px,400,0.02em,#393939);
@@ -45,7 +53,7 @@
   padding: 27px 0 62px 3px;
 }
 .laptop-item-two{
-  margin: 3px 0 0 -7px;
+  margin: 3px 0 0 -6px;
 }
 .laptop-txt-two{
   padding: 24px 6px 0 0;
@@ -57,8 +65,22 @@
   padding: 26px 23px 0 0;
 }
 .laptop-item-four{
-  margin: 1px 0 0 -8px;
+  margin: 1px 0 0 -7px;
 }
 .laptop-txt-four{
   padding: 25px 0 0 14px;
+}
+.first-filter-item{
+  margin: 40px 0 0 4px;
+}
+.second-filter-item{
+  margin: 40px 34px 0 11px;
+}
+.third-filter-item{
+  margin: 40px 18px 0 -24px;
+  width: 90px;
+}
+.fourth-filter-item{
+  margin: 40px 2px 0 -8px;
+  width: 90px;
 }

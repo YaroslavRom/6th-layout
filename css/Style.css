@@ -5389,7 +5389,7 @@ nav .menu-item5-spacing {
   letter-spacing: 0.2px;
   color: #3c4761;
   padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  margin: 22px 0 0 0;
 }
 
 .staff-photo {
@@ -5469,6 +5469,10 @@ nav .menu-item5-spacing {
   letter-spacing: 0.5px;
 }
 
+.first-staff-description {
+  margin: 21px 30px 0 -31px;
+}
+
 .work-place-two {
   margin: 0 0 0 2px;
   letter-spacing: 0.5px;
@@ -5479,9 +5483,41 @@ nav .menu-item5-spacing {
   letter-spacing: 0.34px;
 }
 
+.third-staff-description {
+  margin: 22px 28px 0 -32px;
+}
+
 .work-place-four {
   margin: 0 0 0 13px;
   letter-spacing: 0.6px;
+}
+
+.fourth-staff-description {
+  margin: 22px 0 0 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-one-social-media {
+  margin: 29px 0 0 -10px;
+  max-width: 162px;
+}
+
+.person-two-social-media {
+  margin: 27px 0 0 41px;
+  max-width: 119px;
+}
+
+.person-three-social-media {
+  margin: 27px 0 0 -10px;
+}
+
+.person-four-social-media {
+  margin: 27px 0 0 40px;
+  max-width: 120px;
 }
 
 .third-lil {
@@ -5516,6 +5552,12 @@ nav .menu-item5-spacing {
 .third-lil .lil-tittle {
   margin: 117px -4px 21px 3px;
 }
+.third-lil .lil-paragraph {
+  max-width: 613px;
+  margin: 0 0 0 -1px;
+  letter-spacing: 0.4px;
+  line-height: 27px;
+}
 
 .skill-name {
   font-size: 24px;
@@ -5537,28 +5579,28 @@ nav .menu-item5-spacing {
 }
 
 .skill-item-one {
-  margin: 0 -11px 0 7px;
+  margin: -1px -11px 0 8px;
 }
 .skill-item-one .card-text {
   padding: 29px 0 0 1px;
 }
 
 .skill-item-two {
-  margin: 0 -2px 0 6px;
+  margin: -1px -2px 0 6px;
 }
 .skill-item-two .card-text {
   padding: 29px 0 0 1px;
 }
 
 .skill-item-three {
-  margin: 0 4px 0 -4px;
+  margin: -1px 4px 0 -4px;
 }
 .skill-item-three .card-text {
   padding: 29px 0 0 4px;
 }
 
 .skill-item-four {
-  margin: 0 0 0 -8px;
+  margin: -1px 0 0 -8px;
 }
 .skill-item-four .card-text {
   padding: 29px 0 0 0;
@@ -5596,6 +5638,10 @@ nav .menu-item5-spacing {
 .fourth-lil .lil-paragraph {
   letter-spacing: 0.4px;
 }
+.fourth-lil .lil-tittle {
+  letter-spacing: 4px;
+  margin: 119px 0 22px 6px;
+}
 
 .human-color-container {
   background-color: #ffdd99;
@@ -5618,6 +5664,9 @@ nav .menu-item5-spacing {
   align-items: center;
   border-radius: 5px;
   border-bottom: 4px solid #14a58c;
+  width: 289px;
+  height: 63px;
+  padding: 3px 0 0 5px;
 }
 
 .laptops-list {
@@ -5632,8 +5681,8 @@ nav .menu-item5-spacing {
 
 .filter-criteria-item {
   padding: 0 0 0 0;
-  margin: 40px 9px 0 4px;
-  width: 85px;
+  margin: 0 0 0 0;
+  width: 84px;
   height: 38px;
   background-color: rgba(0, 0, 0, 0.07);
   border-radius: 6px;
@@ -5646,8 +5695,9 @@ nav .menu-item5-spacing {
   font-size: 18px;
   line-height: 38px;
   font-weight: 400;
-  letter-spacing: -0.07em;
+  letter-spacing: 0.7px;
   color: #393939;
+  margin: 0 0 0 1px;
 }
 
 .laptop-item-txt {
@@ -5672,7 +5722,7 @@ nav .menu-item5-spacing {
 }
 
 .laptop-item-two {
-  margin: 3px 0 0 -7px;
+  margin: 3px 0 0 -6px;
 }
 
 .laptop-txt-two {
@@ -5688,11 +5738,29 @@ nav .menu-item5-spacing {
 }
 
 .laptop-item-four {
-  margin: 1px 0 0 -8px;
+  margin: 1px 0 0 -7px;
 }
 
 .laptop-txt-four {
   padding: 25px 0 0 14px;
+}
+
+.first-filter-item {
+  margin: 40px 0 0 4px;
+}
+
+.second-filter-item {
+  margin: 40px 34px 0 11px;
+}
+
+.third-filter-item {
+  margin: 40px 18px 0 -24px;
+  width: 90px;
+}
+
+.fourth-filter-item {
+  margin: 40px 2px 0 -8px;
+  width: 90px;
 }
 
 .pink-color-container {
@@ -5704,8 +5772,8 @@ nav .menu-item5-spacing {
   max-width: 1410px;
 }
 .pink-color-container .col-lg-6 {
-  max-width: 33%;
-  margin: 0 -30px 115px 0;
+  max-width: 38%;
+  margin: 0 -101px 145px 0;
 }
 
 .fifth-lil {
@@ -5737,6 +5805,14 @@ nav .menu-item5-spacing {
   color: #ffffff;
   padding: 0 0 0 11px;
 }
+.fifth-lil .lil-tittle {
+  letter-spacing: 4px;
+  margin: 118px 0 22px 6px;
+}
+.fifth-lil .lil-paragraph {
+  letter-spacing: 0.4px;
+  padding: 0 0 0 11px;
+}
 
 .people-avatar {
   width: 96px;
@@ -5752,7 +5828,6 @@ nav .menu-item5-spacing {
 }
 .comment-item .card-body {
   padding: 4px 0 0 47px;
-  max-width: 333px;
 }
 .comment-item span {
   display: inline-block;
@@ -5792,8 +5867,60 @@ nav .menu-item5-spacing {
 }
 
 .review-list {
-  padding: 64px 0 0 0;
+  padding: 65px 0 0 0;
   margin: 0 0 0 0;
+}
+
+.review-name-one {
+  margin: 0 0 0 3px;
+  letter-spacing: 0.36px;
+}
+
+.review-tittle-one {
+  padding: 0 0 0 4px;
+  letter-spacing: 0.4px;
+}
+
+.review-tittle-two {
+  letter-spacing: 0.4px;
+  padding: 0;
+}
+
+.first-review-paragraph {
+  letter-spacing: 0.4px;
+}
+
+.third-review-paragraph {
+  letter-spacing: 0.3px;
+}
+
+.review-paragraph {
+  max-width: 366px;
+  letter-spacing: 0.2px;
+}
+
+.fourth-review-paragraph {
+  max-width: 378px;
+  letter-spacing: 0.1px;
+  margin: 0 0 0 -2px;
+}
+
+.review-name-three {
+  padding: 23px 0 7px 3px;
+}
+
+.review-tittle-three {
+  padding: 0 0 0 3px;
+}
+
+.review-name-four {
+  margin: 24px 0 6px -2px;
+  padding: 0;
+}
+
+.review-tittle-four {
+  letter-spacing: 0.6px;
+  margin: 0 0 0 -4px;
 }
 
 .aqua-blue-container {
@@ -5807,6 +5934,7 @@ nav .menu-item5-spacing {
   flex-direction: column;
   max-width: 630px;
   text-align: center;
+  max-width: 811px;
 }
 .sixth-lil .lil-tittle {
   font-size: 40px;
@@ -5831,6 +5959,14 @@ nav .menu-item5-spacing {
   color: #ffffff;
   padding: 0 0 0 11px;
 }
+.sixth-lil .lil-tittle {
+  margin: 120px 0 22px 6px;
+}
+.sixth-lil .lil-paragraph {
+  max-width: 800px;
+  letter-spacing: 0.45px;
+  padding: 0 0 0 8px;
+}
 
 .send-message-botton {
   font-size: 18px;
@@ -5850,7 +5986,7 @@ nav .menu-item5-spacing {
 }
 
 form {
-  padding: 0 0 0 0;
+  padding: 25px 0 0 0;
   margin: 0 auto 0 auto;
   max-width: 860px;
 }

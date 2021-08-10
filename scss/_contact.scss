@@ -4,13 +4,22 @@
 }
 .sixth-lil{
   @include heading-slash-paragraph(#ffffff,#000000, #ffffff);
+  max-width: 811px;
+  .lil-tittle{
+    margin: 120px 0 22px 6px;
+  }
+  .lil-paragraph{
+    max-width: 800px;
+    letter-spacing: 0.45px;
+    padding: 0 0 0 8px;
+  }
 }
 .send-message-botton{
   @include button(#30bae7,#299ec5);
 }
 
 form{
-  @include padding-margin(0, 0, 0, 0, 0, auto, 0, auto);
+  @include padding-margin(25px, 0, 0, 0, 0, auto, 0, auto);
   max-width: 860px;
 }
 input{

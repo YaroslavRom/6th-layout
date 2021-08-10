@@ -26,7 +26,7 @@
 }
 .staff-description{
   @include variable-txt-color(16px,24px,300,0.2px,#3c4761);
-  @include padding-margin(0,0,0,0,0,0,0,0);
+  @include padding-margin(0,0,0,0,22px,0,0,0);
 }
 .staff-photo{
   @include custom-images(200px,200px);
@@ -83,6 +83,9 @@
   margin: 0 0 0 -58px;
   letter-spacing: 0.5px;
 }
+.first-staff-description{
+  margin: 21px 30px 0 -31px;
+}
 .work-place-two{
   margin: 0 0 0 2px;
   letter-spacing: 0.5px;
@@ -91,7 +94,34 @@
   margin: 0 0 0 -59px;
   letter-spacing: 0.34px;
 }
+.third-staff-description{
+  margin:22px 28px 0 -32px;
+}
 .work-place-four{
   margin: 0 0 0 13px;
   letter-spacing: 0.6px;
+}
+.fourth-staff-description{
+  margin: 22px 0 0 10px;
+}
+.social-media{
+  display: flex;
+  justify-content: space-between;
+}
+.person-one-social-media{
+  margin: 29px 0 0 -10px;
+  max-width: 162px;
+
+}
+.person-two-social-media{
+  margin: 27px 0 0 41px;
+  max-width: 119px;
+}
+.person-three-social-media{
+  margin: 27px 0 0 -10px;
+}
+.person-four-social-media{
+  margin: 27px 0 0 40px;
+  max-width: 120px;
+
 }
