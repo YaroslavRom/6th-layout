@@ -1,4 +1,89 @@
 @import '_mixins';
 @media (max-width: 1439px) {
+  .review-list{
+    max-width: none;
+    margin: 0 auto;
+    padding: 19px 10px 0 10px;
+  }
+  .pink-color-container .container {
+    max-width: none;
+    width: auto;
+  }
+}
+@media (max-width:1200px) {
+  .laptops-list{
+    padding: 62px 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+  }
+  .laptop-item{
+    padding: 0 2px 45px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .laptop-txt-one{
+    padding-bottom: 0;
+  }
+.staff-list{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 489px;
+}
+.first-two-cards{
+margin: 0;
+padding: 0 0 50px 0;
+}
+.second-filter-item{
+margin: 0;
+padding: 0;
+}
+ .lil-description-items{
+   display: flex;
+   max-width: 460px;
+   margin: 0 auto;
+   .col-lg-3{
+     flex: 0 0 50%;
+   }
+ }
+  .service-first-item,.service-second-item,.service-third-item,.service-fourth-item{
+    margin: 25px 0 0 0;
+  }
+  .skills-list{
+    max-width: 548px;
+    margin: 0 auto;
+    .col-3{
+      max-width: 32%;
+    }
+  }
+  .skill-item-one,.skill-item-two,.skill-item-three,.skill-item-four{
+    margin: 0;
+  }
+  .skill-item{
+    margin: 0 37px 26px 50px;
+    padding: 0 18px 0 9px;
+  }
+  .skill-name{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .second-lil{
+    .container{
+      max-width:960px;
+    }
+  }
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 576px) {
 
 }
