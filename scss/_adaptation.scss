@@ -1,9 +1,8 @@
 @import '_mixins';
 @media (max-width: 1439px) {
   .review-list{
+    @include padding-margin(19px, 10px,0, 10px,0, auto,0,auto);
     max-width: none;
-    margin: 0 auto;
-    padding: 19px 10px 0 10px;
   }
   .pink-color-container .container {
     max-width: none;
@@ -11,37 +10,35 @@
   }
 }
 @media (max-width:1200px) {
+    .container{
+      @include only-sides-margin(auto,auto);
+      @include only-sides-padding(0,0);
+  }
   .laptops-list{
-    padding: 62px 0 0 0;
-    margin: 0 auto;
-    display: flex;
+    @include flex-space-between(center);
+    @include padding-margin(62px, 0, 0, 0,0, auto,0, auto);
     max-width: 600px;
-    justify-content: center;
   }
   .laptop-item{
+    @include flex-flex-direction(column);
     padding: 0 2px 45px 2px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
   .laptop-txt-one{
     padding-bottom: 0;
   }
   .staff-list{
-    display: flex;
-    flex-direction: column;
+    @include flex-flex-direction(column);
     margin: 0 auto;
     max-width: 489px;
   }
   .first-two-cards{
-    margin: 0;
-    padding: 0 0 50px 0;
+    @include padding-margin(0, 0, 50px, 0,0,0,0,0);
   }
 
   .lil-description-items{
+    @include margin-max-width(0, auto,0, auto,460px);
     display: flex;
-    max-width: 460px;
-    margin: 0 auto;
     .col-lg-3{
       flex: 0 0 50%;
     }
@@ -50,8 +47,7 @@
     margin: 25px 0 0 0;
   }
   .skills-list{
-    max-width: 548px;
-    margin: 0 auto;
+    @include margin-max-width(0, auto,0, auto,548px);
     .col-3{
       max-width: 32%;
     }
@@ -60,8 +56,7 @@
     margin: 0;
   }
   .skill-item{
-    margin: 0 37px 26px 50px;
-    padding: 0 18px 0 9px;
+    @include padding-margin(0, 18px, 0, 9px,0, 37px, 26px, 50px);
   }
   .skill-name{
     font-size: 17px;
@@ -69,6 +64,7 @@
 }
 
 @media (max-width: 1030px) {
+
   .first-two-cards, .second-two-cards{
     max-width: none;
   }
@@ -82,10 +78,9 @@
     margin: 15px auto 43px auto;
   }
   .comment-item{
+    @include flex-flex-direction(column);
     padding: 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     .card-body{
       padding: 0;
     }
@@ -109,22 +104,19 @@
 }
 @media (max-width: 877px) {
   .form-box{
-    margin: 0 auto;
-    max-width: 382px;
+    @include margin-max-width(0, auto,0, auto,382px);
   }
   .first-input,.second-input{
     margin: 23px 0 0 0;
   }
   textarea{
-    margin: 24px 0 55px 0;
-    width: 377px;
+    @include margin-regular-width(24px, 0, 55px, 0,377px);
   }
   .input-box{
     flex-direction: column;
   }
   .sixth-lil .lil-paragraph{
-    margin: 0 auto;
-    max-width: 314px;
+    @include margin-max-width(0, auto,0, auto,314px);
   }
   .dark-blue-container ul{
     font-size: 17px;
@@ -140,9 +132,8 @@
     margin: 115px 0 21px 0;
   }
     .lil-paragraph{
+      @include margin-max-width(0, auto,0, auto,314px);
       font-size: 14px;
-      margin: 0 auto;
-      max-width: 314px;
     }
   }
   .about-us{
@@ -194,8 +185,7 @@
     padding: 0;
   }
   .row{
-    margin-left: auto;
-    margin-right: auto;
+    @include only-sides-margin(auto,auto);
   }
 }
 @media (max-width: 450px) {
@@ -203,14 +193,10 @@
   max-width: 80%;
   }
     .first-input, .second-input{
-    margin: 23px auto 0 auto;
-    width: 194px;
-    height: 30px;
+      @include margin-width-height(23px, auto, 0, auto,194px,30px);
   }
   textarea{
-    width: 194px;
-    height: 100px;
-    margin: 23px auto;
+    @include margin-width-height(23px, auto,23px, auto,194px,100px);
     display: block;
   }
   .about-us{
@@ -220,7 +206,6 @@
     flex-direction: column;
   }
   .first-filter-item,.second-filter-item,.third-filter-item,.fourth-filter-item{
-    margin: 10px 0 0 0;
-    width: 75px;
+    @include margin-regular-width(10px, 0, 0, 0,75px);
   }
 }

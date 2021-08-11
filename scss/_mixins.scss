@@ -121,3 +121,17 @@
   width: $width;
   height: $height;
 }
+@mixin only-sides-margin( $margin-right, $margin-left){
+  margin-right: $margin-right;
+  margin-left:  $margin-left;
+}
+@mixin only-sides-padding($padding-right,$padding-left){
+  padding-right:$padding-right ;
+  padding-left:$padding-left ;
+}
+
+@mixin margin-width-height ($margin-top, $margin-right, $margin-bottom, $margin-left,$width,$height){
+  margin:$margin-top $margin-right $margin-bottom $margin-left;
+  width: $width;
+  height: $height;
+}
