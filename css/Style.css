@@ -6319,6 +6319,14 @@ textarea::placeholder {
     max-width: inherit;
   }
 }
+@media (max-width: 767px) {
+  .skills-list {
+    max-width: 272px;
+  }
+  .skills-list .col-3 {
+    max-width: 60%;
+  }
+}
 @media (max-width: 877px) {
   .form-box {
     margin: 0 auto;
@@ -6347,9 +6355,57 @@ textarea::placeholder {
     font-size: 17px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .laptop {
     width: 272px;
+  }
+
+  .lil-center-heading .lil-tittle, .second-lil .lil-tittle, .third-lil .lil-tittle, .fourth-lil .lil-tittle, .fifth-lil .lil-tittle, .sixth-lil .lil-tittle {
+    font-size: 24px;
+  }
+  .lil-center-heading .lil-paragraph, .second-lil .lil-paragraph, .third-lil .lil-paragraph, .fourth-lil .lil-paragraph, .fifth-lil .lil-paragraph, .sixth-lil .lil-paragraph {
+    font-size: 14px;
+  }
+
+  .about-us {
+    font-size: 22px;
+  }
+
+  .first-two-cards, .second-two-cards {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .card-item {
+    padding: 0;
+  }
+
+  .staff-list {
+    max-width: 210px;
+  }
+
+  .every-first-staff-avatar {
+    margin: 0;
+  }
+
+  .first-staff-member, .second-staff-member, .third-staff-member, .fourth-staff-member {
+    margin: 40px 0 -4px 0;
+  }
+
+  .work-place-one, .work-place-two, .work-place-three, .work-place-four {
+    margin: 0;
+  }
+
+  .staff-description {
+    margin: 21px 0 0 0;
+  }
+
+  .social-media {
+    margin: 29px auto 28px auto;
+  }
+
+  .social-media-img {
+    padding: 0 3px 0 3px;
   }
 }
 @font-face {

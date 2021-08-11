@@ -23,29 +23,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
   .laptop-txt-one{
     padding-bottom: 0;
   }
-.staff-list{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 489px;
-}
-.first-two-cards{
-margin: 0;
-padding: 0 0 50px 0;
-}
+  .staff-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 489px;
+  }
+  .first-two-cards{
+    margin: 0;
+    padding: 0 0 50px 0;
+  }
 
- .lil-description-items{
-   display: flex;
-   max-width: 460px;
-   margin: 0 auto;
-   .col-lg-3{
-     flex: 0 0 50%;
-   }
- }
+  .lil-description-items{
+    display: flex;
+    max-width: 460px;
+    margin: 0 auto;
+    .col-lg-3{
+      flex: 0 0 50%;
+    }
+  }
   .service-first-item,.service-second-item,.service-third-item,.service-fourth-item{
     margin: 25px 0 0 0;
   }
@@ -86,9 +86,9 @@ padding: 0 0 50px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
-  .card-body{
-    padding: 0;
-  }
+    .card-body{
+      padding: 0;
+    }
   }
 }
 @media (max-width: 992px) {
@@ -99,11 +99,19 @@ padding: 0 0 50px 0;
     }
   }
 }
+@media (max-width: 767px) {
+  .skills-list{
+    max-width: 272px;
+    .col-3{
+      max-width: 60%  ;
+    }
+  }
+}
 @media (max-width: 877px) {
- .form-box{
-   margin: 0 auto;
-   max-width: 382px;
- }
+  .form-box{
+    margin: 0 auto;
+    max-width: 382px;
+  }
   .first-input,.second-input{
     margin: 23px 0 0 0;
   }
@@ -122,8 +130,47 @@ padding: 0 0 50px 0;
     font-size: 17px;
   }
 }
-@media (max-width: 576px) {
- .laptop{
-   width: 272px;
- }
+@media (max-width: 600px) {
+  .laptop{
+    width: 272px;
+  }
+  .lil-center-heading,.second-lil,.third-lil,.fourth-lil,.fifth-lil,.sixth-lil{
+  .lil-tittle{
+    font-size: 24px;
+  }
+    .lil-paragraph{
+      font-size: 14px;
+    }
+  }
+  .about-us{
+    font-size: 22px;
+  }
+  .first-two-cards, .second-two-cards{
+    flex-direction: column;
+    padding: 0;
+  }
+  .card-item{
+    padding: 0;
+  }
+  .staff-list{
+    max-width: 210px;
+  }
+  .every-first-staff-avatar{
+    margin: 0;
+  }
+  .first-staff-member,.second-staff-member,.third-staff-member,.fourth-staff-member{
+    margin: 40px 0 -4px 0;
+  }
+  .work-place-one,.work-place-two,.work-place-three,.work-place-four{
+    margin: 0;
+  }
+  .staff-description{
+    margin: 21px 0 0 0;
+  }
+  .social-media{
+    margin: 29px auto 28px auto;
+  }
+  .social-media-img{
+    padding: 0 3px 0 3px;
+  }
 }
