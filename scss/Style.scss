@@ -16,6 +16,7 @@
 @import 'review';
 @import 'contact';
 @import 'footer';
+@import 'adaptation';
 
 @font-face {
   font-family: 'TitilliumWeb';
@@ -41,10 +42,8 @@
   src: url('../fonts/TitilliumWeb-Bold.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/TitilliumWeb-Bold.ttf') format("truetype");
 }
-
 body {
   font-family: TitilliumWeb;
-  width: 100%;
-  height: 100%;
+  @include custom-images(100%,100%);
 }
 

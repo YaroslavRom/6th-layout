@@ -1,6 +1,7 @@
 @import '_mixins';
 .purple-color-container{
-  @include background-color-container(#87509c,596px);
+  @include background-color-container(#87509c,auto);
+  @include padding-margin(0,0,145px,0,0,0,0,0);
   .container{
     height: auto;
     .row{
@@ -11,14 +12,11 @@
 nav{
   max-width: 495px;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
+  @include flex-space-between(flex-start);
   li{
-    width: 77px;
-    height: 32px;
-    display: flex;
+    @include custom-images(77px,32px);
+    @include flex-space-between(center);
     margin: 0 13px 0 0;
-    justify-content: center;
     align-items: center;
   }
   .menu-item3-spacing{
@@ -31,21 +29,18 @@ nav{
 .menu-list{
   li{
     &:hover{
-      background-color: #643a79;
-      border-radius: 5px;
+      @include border-radius-bg-color(5px,#643a79)
     }
   }
   @include variable-txt-color(16px,0,400,0,#ffffff);
+  @include flex-space-between(end);
   margin: 0 0 2px 2px;
   text-transform: uppercase;
-  display: flex;
   flex-direction: row;
-  justify-content: end;
   align-items: flex-end;
 }
 .cuda{
-  width: 118px;
-  height: 37px;
+  @include custom-images(118px,37px);
   padding: 57px 0 0 76px;
 }
 
@@ -57,9 +52,8 @@ nav{
   margin: 0 0 0 9px;
 }
 .work-inviter{
-  max-width: 919px;
+  @include margin-max-width(0, auto,0, auto,919px);
   text-align: center;
-  margin: 0 auto;
 }
 .work-invite-button{
   @include button( #eb7d4b,#c86a40);

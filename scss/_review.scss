@@ -5,25 +5,21 @@
     max-width: 1410px;
   }
   .col-lg-6{
-    max-width: 38%;
-    margin: 0 -101px 145px 0;
+    @include margin-max-width(0, -101px, 145px, 0,38%);
   }
 }
 .fifth-lil{
   @include heading-slash-paragraph(#ffffff,#000000, #ffffff);
   .lil-tittle{
-    letter-spacing: 4px;
-    margin: 118px 0 22px 6px;
+    @include margin-letter-spacing(118px,0,22px,6px,4px);
   }
   .lil-paragraph{
-    letter-spacing: 0.4px;
-    padding: 0 0 0 11px;
+    @include padding-letter-spacing(0,0,0,11px,0.4px);
   }
 }
 .people-avatar{
   @include custom-images(96px,96px);
-  border-radius: 50%;
-  background-color: #787878;
+  @include border-radius-bg-color(50%,#787878);
 }
 .comment-item{
   display: flex;
@@ -56,16 +52,13 @@
   @include padding-margin(65px, 0, 0, 0, 0,0,0,0);
 }
 .review-name-one{
-  margin: 0 0 0 3px;
-  letter-spacing: 0.36px;
+  @include margin-letter-spacing(0,0,0,3px,0.36px);
 }
 .review-tittle-one{
-  padding: 0 0 0 4px;
-  letter-spacing: 0.4px;
+  @include padding-letter-spacing(0,0,0,4px,0.4px);
 }
 .review-tittle-two{
-  letter-spacing: 0.4px;
-  padding: 0;
+  @include padding-letter-spacing(0,0,0,0,0.4px);
 }
 .first-review-paragraph{
   letter-spacing: 0.4px;
@@ -74,13 +67,10 @@
   letter-spacing: 0.3px;
 }
 .review-paragraph{
-  max-width: 366px;
-  letter-spacing: 0.2px;
+  @include max-width-letter-spacing(366px,0.2px);
 }
 .fourth-review-paragraph{
-  max-width: 378px;
-  letter-spacing: 0.1px;
-  margin: 0 0 0 -2px;
+  @include width-letter-spacing-margin(378px,0.1px,0,0,0,-2px);
 }
 .review-name-three{
   padding: 23px 0 7px 3px;
@@ -89,10 +79,8 @@
   padding: 0 0 0 3px;
 }
 .review-name-four{
-  margin: 24px 0 6px -2px;
-  padding: 0;
+  @include padding-margin(0,0,0,0,24px,0,6px,-2px);
 }
 .review-tittle-four{
-  letter-spacing: 0.6px;
-  margin: 0 0 0 -4px;
+  @include margin-letter-spacing(0,0,0,-4px,0.6px);
 }

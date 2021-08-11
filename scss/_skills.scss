@@ -4,10 +4,8 @@
     margin: 117px -4px 21px 3px;
   }
   .lil-paragraph{
-    max-width: 613px;
-    margin: 0 0 0 -1px;
-    letter-spacing: 0.4px;
-    line-height: 27px;
+    @include margin-max-width(0,0,0,-1px,613px);
+    @include letter-spacing-line-height(0.4px,27px);
   }
 }
 .skill-name{
@@ -15,14 +13,14 @@
   display: block;
 }
 .skills-list{
-  @include padding-margin(79px, 0, 123px, 0, 3px, 0, 0, 0);
+  @include padding-margin(78px, 0, 123px, 0, 3px, 0, 0, 0);
   text-align: center;
 }
 .skill-item{
   padding: 0;
 }
 .skill-item-one{
-  margin: -1px -11px 0 8px;
+  margin: -1px -11px 0 7px;
   .card-text{
     padding: 29px 0 0 1px;
   }
@@ -40,7 +38,7 @@
   }
 }
 .skill-item-four{
-  margin: 0 0 0 -8px;
+  margin: -1px 0 0 -8px;
   .card-text{
     padding: 29px 0 0 0;
   }

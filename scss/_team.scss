@@ -1,7 +1,8 @@
 @import "mixins";
 
 .gray-color-container{
-  @include background-color-container(#e7f1f8,913px);
+  @include background-color-container(#e7f1f8,auto);
+  @include padding-margin(0, 0, 127px, 0,0,0,0,0);
 }
 .second-lil{
   @include heading-slash-paragraph(#3c4761,#000000,#3c4761);
@@ -11,8 +12,7 @@
   }
   .lil-paragraph{
     max-width: 828px;
-    letter-spacing: 0.4px;
-    padding: 3px 0 0 4px;
+    @include padding-letter-spacing(3px, 0, 0, 4px,0.4px);
   }
 }
 .social-media-img{
@@ -30,14 +30,12 @@
 }
 .staff-photo{
   @include custom-images(200px,200px);
-  background-color: #878787;
-  border-radius: 50%;
+  @include border-radius-bg-color(50%,#878787);
 }
 .staff-list{
   @include padding-margin(76px,0,0,0,0,0,0,0);
-  display: flex;
+  @include flex-space-between(space-between);
   flex-direction: row;
-  justify-content: space-between;
 }
 .card-item{
   max-width: 200px;
@@ -49,12 +47,11 @@
   @include padding-margin(0, 0, 0, 0, 0,50px,0, 0);
 }
 .first-two-cards,.second-two-cards{
-  display: flex;
+  @include flex-space-between(space-between);
   flex-direction: row;
-  max-width:480px;
-  justify-content: space-between;
-  width: 100%;
   text-align: center;
+  max-width:480px;
+  width: 100%;
 }
 .staff{
   display: block;
@@ -80,48 +77,38 @@
   margin: 0 30px 0 0;
 }
 .work-place-one{
-  margin: 0 0 0 -58px;
-  letter-spacing: 0.5px;
+  @include margin-letter-spacing(0,0,0,-58px,0.5px);
 }
 .first-staff-description{
   margin: 21px 30px 0 -31px;
 }
 .work-place-two{
-  margin: 0 0 0 2px;
-  letter-spacing: 0.5px;
+  @include margin-letter-spacing(0,0,0,2px,0.5px);
 }
 .work-place-three{
-  margin: 0 0 0 -59px;
-  letter-spacing: 0.34px;
+  @include margin-letter-spacing(0,0,0,-59px,0.34px);
 }
 .third-staff-description{
   margin:22px 28px 0 -32px;
 }
 .work-place-four{
-  margin: 0 0 0 13px;
-  letter-spacing: 0.6px;
+  @include margin-letter-spacing(0,0,0,13px,0.6px);
 }
 .fourth-staff-description{
   margin: 22px 0 0 10px;
 }
 .social-media{
-  display: flex;
-  justify-content: space-between;
+  @include flex-space-between(space-between);
 }
 .person-one-social-media{
-  margin: 29px 0 0 -10px;
-  max-width: 162px;
-
+  @include margin-max-width(29px, 0, 0, -10px,162px);
 }
 .person-two-social-media{
-  margin: 27px 0 0 41px;
-  max-width: 119px;
+  @include margin-max-width(27px,0,0,41px,119px);
 }
 .person-three-social-media{
   margin: 27px 0 0 -10px;
 }
 .person-four-social-media{
-  margin: 27px 0 0 40px;
-  max-width: 120px;
-
+ @include margin-max-width(27px,0,0,40px,120px);
 }

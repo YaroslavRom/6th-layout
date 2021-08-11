@@ -62,3 +62,49 @@
   padding: $padding-top $padding-right $padding-bottom $padding-left;
   margin: $margin-top $margin-right $margin-bottom $margin-left;
 }
+@mixin margin-letter-spacing($margin-top, $margin-right, $margin-bottom, $margin-left,$letter-spacing){
+ margin:$margin-top $margin-right $margin-bottom $margin-left;
+ letter-spacing: $letter-spacing;
+}
+@mixin padding-letter-spacing($padding-top, $padding-right, $padding-bottom, $padding-left,$letter-spacing){
+  padding: $padding-top $padding-right $padding-bottom $padding-left;
+  letter-spacing: $letter-spacing;
+}
+@mixin margin-max-width($margin-top, $margin-right, $margin-bottom, $margin-left,$max-width){
+  margin:$margin-top $margin-right $margin-bottom $margin-left;
+  max-width: $max-width;
+}
+@mixin flex-space-between($justify-parameter){
+  display: flex;
+  justify-content: $justify-parameter;
+}
+@mixin letter-spacing-line-height ($letter-spacing, $line-height){
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+}
+@mixin width-letter-spacing-margin($max-width,$letter-spacing,$margin-top,$margin-right,$margin-bottom,$margin-left){
+  max-width: $max-width;
+  letter-spacing: $letter-spacing;
+  padding: $margin-top $margin-right $margin-bottom $margin-left;
+}
+@mixin width-letter-spacing-padding($max-width,$letter-spacing,$padding-top,$padding-right,$padding-bottom,$padding-left){
+  max-width: $max-width;
+  letter-spacing: $letter-spacing;
+  padding: $padding-top $padding-right $padding-bottom $padding-left;
+}
+@mixin margin-regular-width($margin-top, $margin-right, $margin-bottom, $margin-left,$width){
+  margin:$margin-top $margin-right $margin-bottom $margin-left;
+  width: $width;
+}
+@mixin border-radius-bg-color($border-radius, $background-color){
+  border-radius: $border-radius;
+  background-color: $background-color;
+}
+@mixin flex-flex-direction($flex-direction){
+  display: flex;
+  flex-direction: $flex-direction;
+}
+@mixin max-width-letter-spacing($max-width,$letter-spacing){
+  max-width: $max-width;
+  letter-spacing: $letter-spacing;
+}

@@ -5086,8 +5086,10 @@ a {
 
 .purple-color-container {
   background-color: #87509c;
-  height: 596px;
+  height: auto;
   width: 100%;
+  padding: 0 0 145px 0;
+  margin: 0 0 0 0;
 }
 .purple-color-container .container {
   height: auto;
@@ -5106,8 +5108,8 @@ nav li {
   width: 77px;
   height: 32px;
   display: flex;
-  margin: 0 13px 0 0;
   justify-content: center;
+  margin: 0 13px 0 0;
   align-items: center;
 }
 nav .menu-item3-spacing {
@@ -5123,16 +5125,16 @@ nav .menu-item5-spacing {
   font-weight: 400;
   letter-spacing: 0;
   color: #ffffff;
+  display: flex;
+  justify-content: end;
   margin: 0 0 2px 2px;
   text-transform: uppercase;
-  display: flex;
   flex-direction: row;
-  justify-content: end;
   align-items: flex-end;
 }
 .menu-list li:hover {
-  background-color: #643a79;
   border-radius: 5px;
+  background-color: #643a79;
 }
 
 .cuda {
@@ -5155,9 +5157,9 @@ nav .menu-item5-spacing {
 }
 
 .work-inviter {
+  margin: 0 auto 0 auto;
   max-width: 919px;
   text-align: center;
-  margin: 0 auto;
 }
 
 .work-invite-button {
@@ -5189,8 +5191,10 @@ nav .menu-item5-spacing {
 
 .green-color-container {
   background-color: #17c2a4;
-  height: 747px;
+  height: auto;
   width: 100%;
+  padding: 0 0 126px 0;
+  margin: 0 0 0 0;
 }
 
 .lil-center-heading {
@@ -5224,8 +5228,12 @@ nav .menu-item5-spacing {
   padding: 0 0 0 11px;
 }
 .lil-center-heading .lil-paragraph {
-  letter-spacing: 0.4px;
   max-width: 611px;
+  letter-spacing: 0.4px;
+  padding-bottom: 1px;
+}
+.lil-center-heading .lil-tittle {
+  margin-top: 118px;
 }
 
 .flag {
@@ -5261,8 +5269,8 @@ nav .menu-item5-spacing {
 }
 
 .pencil {
-  height: 130px;
   width: 90px;
+  height: 130px;
   margin: 0 auto 58px auto;
 }
 
@@ -5273,14 +5281,14 @@ nav .menu-item5-spacing {
 }
 
 .rocket {
-  height: 136px;
   width: 97px;
+  height: 136px;
   margin: 0 auto 54px auto;
 }
 
 .red-flag {
-  height: 122px;
   width: 125px;
+  height: 122px;
   margin: 0 auto 62px auto;
 }
 
@@ -5318,8 +5326,10 @@ nav .menu-item5-spacing {
 
 .gray-color-container {
   background-color: #e7f1f8;
-  height: 913px;
+  height: auto;
   width: 100%;
+  padding: 0 0 127px 0;
+  margin: 0 0 0 0;
 }
 
 .second-lil {
@@ -5357,8 +5367,8 @@ nav .menu-item5-spacing {
 }
 .second-lil .lil-paragraph {
   max-width: 828px;
-  letter-spacing: 0.4px;
   padding: 3px 0 0 4px;
+  letter-spacing: 0.4px;
 }
 
 .social-media-img {
@@ -5395,16 +5405,16 @@ nav .menu-item5-spacing {
 .staff-photo {
   width: 200px;
   height: 200px;
-  background-color: #878787;
   border-radius: 50%;
+  background-color: #878787;
 }
 
 .staff-list {
   padding: 76px 0 0 0;
   margin: 0 0 0 0;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .card-item {
@@ -5423,11 +5433,11 @@ nav .menu-item5-spacing {
 
 .first-two-cards, .second-two-cards {
   display: flex;
-  flex-direction: row;
-  max-width: 480px;
   justify-content: space-between;
-  width: 100%;
+  flex-direction: row;
   text-align: center;
+  max-width: 480px;
+  width: 100%;
 }
 
 .staff {
@@ -5553,8 +5563,8 @@ nav .menu-item5-spacing {
   margin: 117px -4px 21px 3px;
 }
 .third-lil .lil-paragraph {
-  max-width: 613px;
   margin: 0 0 0 -1px;
+  max-width: 613px;
   letter-spacing: 0.4px;
   line-height: 27px;
 }
@@ -5569,7 +5579,7 @@ nav .menu-item5-spacing {
 }
 
 .skills-list {
-  padding: 79px 0 123px 0;
+  padding: 78px 0 123px 0;
   margin: 3px 0 0 0;
   text-align: center;
 }
@@ -5579,7 +5589,7 @@ nav .menu-item5-spacing {
 }
 
 .skill-item-one {
-  margin: -1px -11px 0 8px;
+  margin: -1px -11px 0 7px;
 }
 .skill-item-one .card-text {
   padding: 29px 0 0 1px;
@@ -5600,7 +5610,7 @@ nav .menu-item5-spacing {
 }
 
 .skill-item-four {
-  margin: 0 0 0 -8px;
+  margin: -1px 0 0 -8px;
 }
 .skill-item-four .card-text {
   padding: 29px 0 0 0;
@@ -5639,8 +5649,8 @@ nav .menu-item5-spacing {
   letter-spacing: 0.4px;
 }
 .fourth-lil .lil-tittle {
-  letter-spacing: 4px;
   margin: 119px 0 22px 6px;
+  letter-spacing: 4px;
 }
 
 .human-color-container {
@@ -5684,8 +5694,8 @@ nav .menu-item5-spacing {
   margin: 0 0 0 0;
   width: 84px;
   height: 38px;
-  background-color: rgba(0, 0, 0, 0.07);
   border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.07);
 }
 .filter-criteria-item:hover {
   background-color: #ffffff;
@@ -5722,7 +5732,7 @@ nav .menu-item5-spacing {
 }
 
 .laptop-item-two {
-  margin: 3px 0 0 -6px;
+  margin: 3px 0 0 -7px;
 }
 
 .laptop-txt-two {
@@ -5738,7 +5748,7 @@ nav .menu-item5-spacing {
 }
 
 .laptop-item-four {
-  margin: 1px 0 0 -7px;
+  margin: 1px 0 0 -8px;
 }
 
 .laptop-txt-four {
@@ -5772,8 +5782,8 @@ nav .menu-item5-spacing {
   max-width: 1410px;
 }
 .pink-color-container .col-lg-6 {
-  max-width: 38%;
   margin: 0 -101px 145px 0;
+  max-width: 38%;
 }
 
 .fifth-lil {
@@ -5806,12 +5816,12 @@ nav .menu-item5-spacing {
   padding: 0 0 0 11px;
 }
 .fifth-lil .lil-tittle {
-  letter-spacing: 4px;
   margin: 118px 0 22px 6px;
+  letter-spacing: 4px;
 }
 .fifth-lil .lil-paragraph {
-  letter-spacing: 0.4px;
   padding: 0 0 0 11px;
+  letter-spacing: 0.4px;
 }
 
 .people-avatar {
@@ -5882,8 +5892,8 @@ nav .menu-item5-spacing {
 }
 
 .review-tittle-two {
+  padding: 0 0 0 0;
   letter-spacing: 0.4px;
-  padding: 0;
 }
 
 .first-review-paragraph {
@@ -5902,7 +5912,7 @@ nav .menu-item5-spacing {
 .fourth-review-paragraph {
   max-width: 378px;
   letter-spacing: 0.1px;
-  margin: 0 0 0 -2px;
+  padding: 0 0 0 -2px;
 }
 
 .review-name-three {
@@ -5914,13 +5924,13 @@ nav .menu-item5-spacing {
 }
 
 .review-name-four {
+  padding: 0 0 0 0;
   margin: 24px 0 6px -2px;
-  padding: 0;
 }
 
 .review-tittle-four {
-  letter-spacing: 0.6px;
   margin: 0 0 0 -4px;
+  letter-spacing: 0.6px;
 }
 
 .aqua-blue-container {
@@ -6029,11 +6039,11 @@ input::placeholder:active, textarea::placeholder:active {
 }
 
 textarea {
-  width: 832px;
+  width: 823px;
   height: 177px;
+  padding: 23px 14px 0 23px;
+  margin: 0 0 57px 0;
   background-color: #273a71;
-  padding: 23px 0 0 23px;
-  margin: 0 0 56px 0;
 }
 textarea::placeholder {
   font-size: 18px;
@@ -6047,6 +6057,12 @@ textarea::placeholder {
 .input-box {
   display: flex;
   justify-content: space-between;
+}
+
+.send-message-txt {
+  padding: 0 0 0 0;
+  margin: 0 -2px -4px 0;
+  letter-spacing: 0.1px;
 }
 
 .dark-blue-container {
@@ -6069,9 +6085,9 @@ textarea::placeholder {
 }
 
 .footer-list {
-  max-width: 941px;
   padding: 42px 0 0 0;
   margin: 0 auto 0 auto;
+  max-width: 941px;
   justify-content: space-between;
 }
 

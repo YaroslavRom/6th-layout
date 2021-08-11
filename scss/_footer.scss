@@ -3,8 +3,7 @@
   @include background-color-container(#344b8e,112px);
   ul{
     @include variable-txt-color(24px,29px,600,0.02em,#ffffff);
-    display: flex;
-    flex-direction: row;
+    @include flex-flex-direction(row);
   }
 }
 .footer-list-item{
@@ -13,7 +12,7 @@
   }
 }
 .footer-list{
-  max-width: 941px;
   @include padding-margin(42px, 0, 0, 0, 0, auto, 0, auto);
+  max-width: 941px;
   justify-content: space-between;
 }

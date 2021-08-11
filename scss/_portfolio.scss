@@ -5,8 +5,7 @@
     letter-spacing: 0.4px;
   }
   .lil-tittle{
-    letter-spacing: 4px;
-    margin: 119px 0 22px 6px;
+    @include margin-letter-spacing(119px, 0, 22px, 6px,4px);
   }
 }
 .human-color-container{
@@ -14,8 +13,7 @@
 }
 .load-projects-botton{
   @include button(#17c2a4,#14a58c);
-  width: 289px;
-  height: 63px;
+  @include custom-images(289px,63px);
   padding: 3px 0 0 5px;
 }
 .laptops-list{
@@ -27,10 +25,8 @@
 }
 .filter-criteria-item{
   @include padding-margin(0,0,0,0,0,0,0,0);
-  width: 84px;
-  height: 38px;
-  background-color: rgba(0,0,0,0.07);
-  border-radius: 6px;
+  @include custom-images(84px,38px);
+  @include border-radius-bg-color(6px,rgba(0,0,0,0.07));
   &:hover{
     background-color: #ffffff;
   }
@@ -53,7 +49,7 @@
   padding: 27px 0 62px 3px;
 }
 .laptop-item-two{
-  margin: 3px 0 0 -6px;
+  margin: 3px 0 0 -7px;
 }
 .laptop-txt-two{
   padding: 24px 6px 0 0;
@@ -65,7 +61,7 @@
   padding: 26px 23px 0 0;
 }
 .laptop-item-four{
-  margin: 1px 0 0 -7px;
+  margin: 1px 0 0 -8px;
 }
 .laptop-txt-four{
   padding: 25px 0 0 14px;
@@ -77,10 +73,8 @@
   margin: 40px 34px 0 11px;
 }
 .third-filter-item{
-  margin: 40px 18px 0 -24px;
-  width: 90px;
+  @include margin-regular-width(40px, 18px, 0, -24px,90px);
 }
 .fourth-filter-item{
-  margin: 40px 2px 0 -8px;
-  width: 90px;
+  @include margin-regular-width(40px, 2px, 0, -8px,90px);
 }
