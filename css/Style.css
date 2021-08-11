@@ -5930,12 +5930,30 @@ nav .menu-item5-spacing {
 
 .review-name-four {
   padding: 0 0 0 0;
-  margin: 24px 0 6px -2px;
+  margin: 23px 0 6px -2px;
 }
 
 .review-tittle-four {
   margin: 0 0 0 -4px;
   letter-spacing: 0.6px;
+}
+
+.additional-letter-spacing2 {
+  margin: 0 0 0 -6px;
+  letter-spacing: 0.199px;
+}
+
+.additional-letter-spacing3 {
+  margin: 0 1px 0 -3px;
+  letter-spacing: 0.199px;
+}
+
+.additional-letter-spacing {
+  letter-spacing: 0.4px;
+}
+
+.more-line-height {
+  margin: 1px 0 -1px -3px;
 }
 
 .aqua-blue-container {
@@ -6427,7 +6445,7 @@ textarea::placeholder {
   }
 
   .footer-list-item {
-    padding: 0 5px 0 0;
+    padding: 0 8px 0 2px;
   }
 
   .dark-blue-container ul {

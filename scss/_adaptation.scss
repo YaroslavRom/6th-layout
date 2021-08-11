@@ -10,9 +10,9 @@
   }
 }
 @media (max-width:1200px) {
-    .container{
-      @include only-sides-margin(auto,auto);
-      @include only-sides-padding(0,0);
+  .container{
+    @include only-sides-margin(auto,auto);
+    @include only-sides-padding(0,0);
   }
   .laptops-list{
     @include flex-space-between(center);
@@ -127,10 +127,10 @@
     width: 272px;
   }
   .lil-center-heading,.second-lil,.third-lil,.fourth-lil,.fifth-lil,.sixth-lil{
-  .lil-tittle{
-    font-size: 24px;
-    margin: 115px 0 21px 0;
-  }
+    .lil-tittle{
+      font-size: 24px;
+      margin: 115px 0 21px 0;
+    }
     .lil-paragraph{
       @include margin-max-width(0, auto,0, auto,314px);
       font-size: 14px;
@@ -174,7 +174,7 @@
     flex-direction: column;
   }
   .footer-list-item{
-    padding: 0 5px 0 0;
+    padding: 0 8px 0 2px;
   }
   .dark-blue-container ul{
     font-size: 16px;
@@ -190,10 +190,10 @@
 }
 @media (max-width: 450px) {
   .pink-color-container .col-lg-6 {
-  max-width: 80%;
+    max-width: 80%;
   }
-    .first-input, .second-input{
-      @include margin-width-height(23px, auto, 0, auto,194px,30px);
+  .first-input, .second-input{
+    @include margin-width-height(23px, auto, 0, auto,194px,30px);
   }
   textarea{
     @include margin-width-height(23px, auto,23px, auto,194px,100px);

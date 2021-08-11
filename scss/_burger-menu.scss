@@ -26,7 +26,7 @@
 }
 @media (min-width: 1214px) {
   .header-menu-hidden{
-      top: -100%;
+    top: -100%;
   }
 }
 @media (max-width: 1214px) {
@@ -50,7 +50,7 @@
       content: "";
     }
     &:after {
-     @include burger-slices(#ffffff,19px);
+      @include burger-slices(#ffffff,19px);
       content: "";
     }
     .middle-burger-slice {

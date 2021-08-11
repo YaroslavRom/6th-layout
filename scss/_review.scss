@@ -80,8 +80,20 @@
   padding: 0 0 0 3px;
 }
 .review-name-four{
-  @include padding-margin(0,0,0,0,24px,0,6px,-2px);
+  @include padding-margin(0,0,0,0,23px,0,6px,-2px);
 }
 .review-tittle-four{
   @include margin-letter-spacing(0,0,0,-4px,0.6px);
+}
+.additional-letter-spacing2{
+  @include margin-letter-spacing(0,0,0,-6px,0.199px);
+}
+.additional-letter-spacing3{
+  @include margin-letter-spacing(0, 1px, 0, -3px,0.199px);
+}
+.additional-letter-spacing{
+  letter-spacing: 0.4px;
+}
+.more-line-height{
+  margin: 1px 0 -1px -3px
 }
