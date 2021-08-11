@@ -14,6 +14,9 @@
     max-width: 828px;
     @include padding-letter-spacing(3px, 0, 0, 4px,0.4px);
   }
+  .lil-slash{
+    margin: 1px auto 17px auto;
+  }
 }
 .social-media-img{
   @include custom-images(32px,32px);

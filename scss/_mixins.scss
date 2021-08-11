@@ -108,3 +108,12 @@
   max-width: $max-width;
   letter-spacing: $letter-spacing;
 }
+@mixin burger-slices($background-color,$top){
+  background-color: $background-color;
+  position: absolute;
+  opacity: 80%;
+  width: 54%;
+  height: 2px;
+  left: 10px;
+  top: $top;
+}

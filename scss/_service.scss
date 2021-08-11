@@ -34,18 +34,18 @@
 }
 .pencil{
   @include custom-images(90px,130px);
-  margin: 0 auto 58px auto;
+  margin: -2px auto 60px auto;
 }
 .setting{
-  @include custom-images(160px,125px);
-  margin: 0 auto 59px auto;
+  @include custom-images(161px,126px);
+  margin: -1px auto 59px auto;
 }
 .rocket{
-  @include custom-images(97px,136px);
+  @include custom-images(96px,136px);
   margin: 0 auto 54px auto;
 }
 .red-flag {
-  @include custom-images(125px,122px);
+  @include custom-images(123px,122px);
   margin: 0 auto 62px auto;
 }
 .service-first-item{

@@ -7,17 +7,15 @@
   -webkit-transition: .40s ease-in-out,background;
 }
 .header-menu-hidden{
+  @include border-radius-bg-color(22px,chocolate);
   top: -100%;
   left: 27%;
   width: 108px;
   padding: 131px 5px 21px 5px;
-  border-radius: 22px;
-  background-color: chocolate;
   border: 8px solid #A85418;
 }
 .hidden-menu-list{
-  display: flex;
-  flex-direction: column;
+  @include flex-flex-direction(column);
   align-items: center;
   li{
     margin: 0 auto;
@@ -36,48 +34,27 @@
     display: none;
   }
   .header_burger-menu {
+    @include border-radius-bg-color(4px,transparent);
+    @include custom-images(42px,32px);
     display: block;
-    width: 42px;
-    height: 32px;
     position: absolute;
-    z-index: 100;
-    background-color: transparent;
+    z-index: 10;
     border: 1px solid rgba(255, 255, 255, 0.7);
     opacity: 80%;
-    border-radius: 4px;
     margin: 38px 13px 3px 10px;
     right: 16px;
     top: 19px;
     bottom: 19px;
     &:before {
-      top: 11px;
+      @include burger-slices(#ffffff,11px);
       content: "";
-      background-color: #ffffff;
-      position: absolute;
-      width: 54%;
-      height: 2px;
-      left: 10px;
-      opacity: 0.8;
     }
     &:after {
-      bottom: 11px;
+     @include burger-slices(#ffffff,19px);
       content: "";
-      background-color: #ffffff;
-      position: absolute;
-      width: 54%;
-      height: 2px;
-      left: 10px;
-      opacity: 0.8;
     }
     .middle-burger-slice {
-      position: absolute;
-      background-color: #ffffff;
-      float: right;
-      left: 10px;
-      width: 54%;
-      height: 2px;
-      top: 15px;
-      opacity: 0.8;
+      @include burger-slices(#ffffff,15px);
     }
   }
   .open-nav-icon{
@@ -92,7 +69,7 @@
     &:after{
       -webkit-transform: rotate(-135deg);
       width: 57%;
-      bottom: 15px;
+      top: 15px;
     }
     &:before{
       -webkit-transform: rotate(135deg);

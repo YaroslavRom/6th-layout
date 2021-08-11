@@ -5271,23 +5271,23 @@ nav .menu-item5-spacing {
 .pencil {
   width: 90px;
   height: 130px;
-  margin: 0 auto 58px auto;
+  margin: -2px auto 60px auto;
 }
 
 .setting {
-  width: 160px;
-  height: 125px;
-  margin: 0 auto 59px auto;
+  width: 161px;
+  height: 126px;
+  margin: -1px auto 59px auto;
 }
 
 .rocket {
-  width: 97px;
+  width: 96px;
   height: 136px;
   margin: 0 auto 54px auto;
 }
 
 .red-flag {
-  width: 125px;
+  width: 123px;
   height: 122px;
   margin: 0 auto 62px auto;
 }
@@ -5369,6 +5369,9 @@ nav .menu-item5-spacing {
   max-width: 828px;
   padding: 3px 0 0 4px;
   letter-spacing: 0.4px;
+}
+.second-lil .lil-slash {
+  margin: 1px auto 17px auto;
 }
 
 .social-media-img {
@@ -5674,7 +5677,7 @@ nav .menu-item5-spacing {
   align-items: center;
   border-radius: 5px;
   border-bottom: 4px solid #14a58c;
-  width: 289px;
+  width: 288px;
   height: 63px;
   padding: 3px 0 0 5px;
 }
@@ -6101,12 +6104,12 @@ textarea::placeholder {
 }
 
 .header-menu-hidden {
+  border-radius: 22px;
+  background-color: chocolate;
   top: -100%;
   left: 27%;
   width: 108px;
   padding: 131px 5px 21px 5px;
-  border-radius: 22px;
-  background-color: chocolate;
   border: 8px solid #A85418;
 }
 
@@ -6134,49 +6137,48 @@ textarea::placeholder {
   }
 
   .header_burger-menu {
-    display: block;
+    border-radius: 4px;
+    background-color: transparent;
     width: 42px;
     height: 32px;
+    display: block;
     position: absolute;
-    z-index: 100;
-    background-color: transparent;
+    z-index: 10;
     border: 1px solid rgba(255, 255, 255, 0.7);
     opacity: 80%;
-    border-radius: 4px;
     margin: 38px 13px 3px 10px;
     right: 16px;
     top: 19px;
     bottom: 19px;
   }
   .header_burger-menu:before {
+    background-color: #ffffff;
+    position: absolute;
+    opacity: 80%;
+    width: 54%;
+    height: 2px;
+    left: 10px;
     top: 11px;
     content: "";
-    background-color: #ffffff;
-    position: absolute;
-    width: 54%;
-    height: 2px;
-    left: 10px;
-    opacity: 0.8;
   }
   .header_burger-menu:after {
-    bottom: 11px;
-    content: "";
     background-color: #ffffff;
     position: absolute;
+    opacity: 80%;
     width: 54%;
     height: 2px;
     left: 10px;
-    opacity: 0.8;
+    top: 19px;
+    content: "";
   }
   .header_burger-menu .middle-burger-slice {
-    position: absolute;
     background-color: #ffffff;
-    float: right;
-    left: 10px;
+    position: absolute;
+    opacity: 80%;
     width: 54%;
     height: 2px;
+    left: 10px;
     top: 15px;
-    opacity: 0.8;
   }
 
   .open-nav-icon:before, .open-nav-icon:after {
@@ -6190,7 +6192,7 @@ textarea::placeholder {
   .open-nav-icon:after {
     -webkit-transform: rotate(-135deg);
     width: 57%;
-    bottom: 15px;
+    top: 15px;
   }
   .open-nav-icon:before {
     -webkit-transform: rotate(135deg);
