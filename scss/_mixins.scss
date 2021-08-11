@@ -117,3 +117,7 @@
   left: 10px;
   top: $top;
 }
+@mixin width-height ($width,$height){
+  width: $width;
+  height: $height;
+}

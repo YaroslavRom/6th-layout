@@ -1,6 +1,7 @@
 @import "mixins";
 .dark-blue-container{
-  @include background-color-container(#344b8e,112px);
+  @include background-color-container(#344b8e,auto);
+  padding: 2px 0 42px 0;
   ul{
     @include variable-txt-color(24px,29px,600,0.02em,#ffffff);
     @include flex-flex-direction(row);

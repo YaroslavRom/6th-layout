@@ -1,6 +1,7 @@
 @import "mixins";
 .pink-color-container{
-  @include background-color-container(#d74680,894px);
+  @include background-color-container(#d74680,auto);
+  margin: 0 0 -15px 0;
   .container{
     max-width: 1410px;
   }

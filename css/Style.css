@@ -5089,7 +5089,7 @@ a {
   height: auto;
   width: 100%;
   padding: 0 0 145px 0;
-  margin: 0 0 0 0;
+  margin: -2px 0 0 0;
 }
 .purple-color-container .container {
   height: auto;
@@ -5538,6 +5538,7 @@ nav .menu-item5-spacing {
   flex-direction: column;
   max-width: 630px;
   text-align: center;
+  margin: 1px auto 17px auto;
 }
 .third-lil .lil-tittle {
   font-size: 40px;
@@ -5563,15 +5564,14 @@ nav .menu-item5-spacing {
   padding: 0 0 0 11px;
 }
 .third-lil .lil-tittle {
-  margin: 117px -4px 21px 3px;
+  margin: 115px -4px 21px 2px;
 }
 .third-lil .lil-paragraph {
-  margin: 0 0 0 -1px;
+  margin: 0 0 1px -1px;
   max-width: 613px;
   letter-spacing: 0.4px;
   line-height: 27px;
 }
-
 .skill-name {
   font-size: 24px;
   line-height: 18px;
@@ -5582,7 +5582,7 @@ nav .menu-item5-spacing {
 }
 
 .skills-list {
-  padding: 78px 0 123px 0;
+  padding: 64px 0 123px 0;
   margin: 3px 0 0 0;
   text-align: center;
 }
@@ -5658,8 +5658,9 @@ nav .menu-item5-spacing {
 
 .human-color-container {
   background-color: #ffdd99;
-  height: 1423px;
+  height: auto;
   width: 100%;
+  padding: 0 0 109px 0;
 }
 
 .load-projects-botton {
@@ -5778,8 +5779,9 @@ nav .menu-item5-spacing {
 
 .pink-color-container {
   background-color: #d74680;
-  height: 894px;
+  height: auto;
   width: 100%;
+  margin: 0 0 -15px 0;
 }
 .pink-color-container .container {
   max-width: 1410px;
@@ -5938,8 +5940,9 @@ nav .menu-item5-spacing {
 
 .aqua-blue-container {
   background-color: #3c5499;
-  height: 819px;
+  height: auto;
   width: 100%;
+  padding: 0 0 113px 0;
 }
 
 .sixth-lil {
@@ -6010,12 +6013,12 @@ input {
   font-weight: 400;
   letter-spacing: 0;
   color: #ffffff;
-  height: 56px;
+  height: 49px;
   background-color: #273a71;
 }
 
 input, textarea {
-  border-radius: 6px;
+  border-radius: 5px;
   color: white;
 }
 input::placeholder, textarea::placeholder {
@@ -6030,22 +6033,24 @@ input::placeholder:active, textarea::placeholder:active {
 }
 
 .first-input {
-  width: 390px;
-  padding: 0 0 0 22px;
-  margin: 47px 0 0 0;
+  width: 389px;
+  height: 49px;
+  padding: 3px 0 3px 22px;
+  margin: 49px 0 0 0;
 }
 
 .second-input {
-  padding: 0 0 0 23px;
-  margin: 47px 0 23px 12px;
+  padding: 3px 0 3px 23px;
+  margin: 49px 0 23px 12px;
   width: 388px;
+  height: 48px;
 }
 
 textarea {
   width: 823px;
   height: 177px;
   padding: 23px 14px 0 23px;
-  margin: 0 0 57px 0;
+  margin: 2px 0 55px 0;
   background-color: #273a71;
 }
 textarea::placeholder {
@@ -6070,8 +6075,9 @@ textarea::placeholder {
 
 .dark-blue-container {
   background-color: #344b8e;
-  height: 112px;
+  height: auto;
   width: 100%;
+  padding: 2px 0 42px 0;
 }
 .dark-blue-container ul {
   font-size: 24px;

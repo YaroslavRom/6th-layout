@@ -9,7 +9,8 @@
   }
 }
 .human-color-container{
-  @include background-color-container(#ffdd99,1423px);
+  @include background-color-container(#ffdd99,auto);
+  padding: 0 0 109px 0;
 }
 .load-projects-botton{
   @include button(#17c2a4,#14a58c);

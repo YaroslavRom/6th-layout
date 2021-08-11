@@ -1,7 +1,7 @@
 @import '_mixins';
 .purple-color-container{
   @include background-color-container(#87509c,auto);
-  @include padding-margin(0,0,145px,0,0,0,0,0);
+  @include padding-margin(0,0,145px,0,-2px,0,0,0);
   .container{
     height: auto;
     .row{
