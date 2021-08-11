@@ -76,7 +76,7 @@
     flex-direction: column;
   }
   .people-avatar{
-    margin: 0 auto;
+    margin: 0 auto 5px auto;
   }
   .pink-color-container .col-lg-6{
     margin: 15px auto 43px auto;
@@ -137,9 +137,12 @@
   .lil-center-heading,.second-lil,.third-lil,.fourth-lil,.fifth-lil,.sixth-lil{
   .lil-tittle{
     font-size: 24px;
+    margin: 115px 0 21px 0;
   }
     .lil-paragraph{
       font-size: 14px;
+      margin: 0 auto;
+      max-width: 314px;
     }
   }
   .about-us{
@@ -172,5 +175,52 @@
   }
   .social-media-img{
     padding: 0 3px 0 3px;
+  }
+  .services-box{
+    flex-direction: column;
+  }
+  .lil-description-items{
+    flex-direction: column;
+  }
+  .footer-list-item{
+    padding: 0 5px 0 0;
+  }
+  .dark-blue-container ul{
+    font-size: 16px;
+    justify-content: center;
+  }
+  .container{
+    width: auto;
+    padding: 0;
+  }
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 450px) {
+  .pink-color-container .col-lg-6 {
+  max-width: 80%;
+  }
+    .first-input, .second-input{
+    margin: 23px auto 0 auto;
+    width: 194px;
+    height: 30px;
+  }
+  textarea{
+    width: 194px;
+    height: 100px;
+    margin: 23px auto;
+    display: block;
+  }
+  .about-us{
+    margin: 135px 0 56px -6px;
+  }
+  .word-type-filter{
+    flex-direction: column;
+  }
+  .first-filter-item,.second-filter-item,.third-filter-item,.fourth-filter-item{
+    margin: 10px 0 0 0;
+    width: 75px;
   }
 }
