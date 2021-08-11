@@ -6091,6 +6091,115 @@ textarea::placeholder {
   justify-content: space-between;
 }
 
+.header_burger-menu {
+  display: none;
+}
+
+.header-menu-hidden, .menu-opened {
+  position: absolute;
+  -webkit-transition: 0.4s ease-in-out, background;
+}
+
+.header-menu-hidden {
+  top: -100%;
+  left: 27%;
+  width: 108px;
+  padding: 131px 5px 21px 5px;
+  border-radius: 22px;
+  background-color: chocolate;
+  border: 8px solid #A85418;
+}
+
+.hidden-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hidden-menu-list li {
+  margin: 0 auto;
+}
+
+.menu_opened {
+  top: -127px;
+}
+
+@media (min-width: 1214px) {
+  .header-menu-hidden {
+    top: -100%;
+  }
+}
+@media (max-width: 1214px) {
+  .navigation-menu-visible {
+    display: none;
+  }
+
+  .header_burger-menu {
+    display: block;
+    width: 42px;
+    height: 32px;
+    position: absolute;
+    z-index: 100;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    opacity: 80%;
+    border-radius: 4px;
+    margin: 38px 13px 3px 10px;
+    right: 16px;
+    top: 19px;
+    bottom: 19px;
+  }
+  .header_burger-menu:before {
+    top: 11px;
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 54%;
+    height: 2px;
+    left: 10px;
+    opacity: 0.8;
+  }
+  .header_burger-menu:after {
+    bottom: 11px;
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 54%;
+    height: 2px;
+    left: 10px;
+    opacity: 0.8;
+  }
+  .header_burger-menu .middle-burger-slice {
+    position: absolute;
+    background-color: #ffffff;
+    float: right;
+    left: 10px;
+    width: 54%;
+    height: 2px;
+    top: 15px;
+    opacity: 0.8;
+  }
+
+  .open-nav-icon:before, .open-nav-icon:after {
+    border-radius: 51px;
+    height: 3px;
+    opacity: 1;
+    background-color: aqua;
+    -webkit-transition: 0.25s ease-in-out, background;
+    cursor: pointer;
+  }
+  .open-nav-icon:after {
+    -webkit-transform: rotate(-135deg);
+    width: 57%;
+    bottom: 15px;
+  }
+  .open-nav-icon:before {
+    -webkit-transform: rotate(135deg);
+    top: 14px;
+  }
+  .open-nav-icon span {
+    display: none;
+  }
+}
 @font-face {
   font-family: "TitilliumWeb";
   font-weight: 300;
